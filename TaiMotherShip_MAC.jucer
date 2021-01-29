@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="XDqUwC" name="TaiMotherShip" projectType="audioplug" jucerVersion="5.4.7"
+              version="0.9.24" companyName="THD-Labs" companyCopyright="THD-Labs"
+              companyWebsite="www.thd-labs.com" companyEmail="info@thd-labs.com"
+              reportAppUsage="0" displaySplashScreen="0" bundleIdentifier="com.thd-labs.TaiMotherShip"
+              pluginFormats="buildAAX,buildAU,buildStandalone,buildVST" pluginManufacturerCode="THDM"
+              pluginManufacturer="THD-Labs" pluginCode="TMSP" aaxIdentifier="com.thd-labs.TaiMotherShip"
+              pluginAUExportPrefix="TaiMotherShipAU" pluginVST3Category="Tools">
+  <MAINGROUP id="pqEx7U" name="TaiMotherShip">
+    <GROUP id="{C5804CED-540B-28E0-26F7-2196FB0602BC}" name="images">
+      <GROUP id="{68CE684C-2B11-FDB3-835A-2920ECCE6F5F}" name="Square_switches">
+        <FILE id="LlKaJ7" name="green_swt_cut_auto_on_big.png" compile="0"
+              resource="1" file="Source/images/green_swt_cut_auto_on_big.png"/>
+        <FILE id="RRd3fm" name="green_swt_cut_auto_on_s.png" compile="0" resource="1"
+              file="Source/images/green_swt_cut_auto_on_s.png"/>
+        <FILE id="jHcpcs" name="green_swt_vol_auto_on_big.png" compile="0"
+              resource="1" file="Source/images/green_swt_vol_auto_on_big.png"/>
+        <FILE id="l1UeRt" name="green_swt_vol_auto_on_s.png" compile="0" resource="1"
+              file="Source/images/green_swt_vol_auto_on_s.png"/>
+        <FILE id="wdaeLs" name="grey_swt_cut_auto_off_big.png" compile="0"
+              resource="1" file="Source/images/grey_swt_cut_auto_off_big.png"/>
+        <FILE id="j6yB43" name="grey_swt_cut_auto_off_s.png" compile="0" resource="1"
+              file="Source/images/grey_swt_cut_auto_off_s.png"/>
+        <FILE id="lBamFk" name="grey_swt_vol_auto_off_big.png" compile="0"
+              resource="1" file="Source/images/grey_swt_vol_auto_off_big.png"/>
+        <FILE id="Qx91pS" name="grey_swt_vol_auto_off_s.png" compile="0" resource="1"
+              file="Source/images/grey_swt_vol_auto_off_s.png"/>
+      </GROUP>
+      <GROUP id="{CAAE2BBF-1667-24B7-8A9F-91A3698B7BAA}" name="Fader_status_switch">
+        <FILE id="X3Wk5c" name="swt_abs_rl_off.png" compile="0" resource="1"
+              file="Source/images/swt_abs_rl_off.png"/>
+        <FILE id="xluqia" name="swt_abs_rl_off_s.png" compile="0" resource="1"
+              file="Source/images/swt_abs_rl_off_s.png"/>
+        <FILE id="yLMMMe" name="swt_abs_rl_on.png" compile="0" resource="1"
+              file="Source/images/swt_abs_rl_on.png"/>
+        <FILE id="mNCb1a" name="swt_abs_rl_on_s.png" compile="0" resource="1"
+              file="Source/images/swt_abs_rl_on_s.png"/>
+        <FILE id="siQRUF" name="swt_abs_rt_off.png" compile="0" resource="1"
+              file="Source/images/swt_abs_rt_off.png"/>
+        <FILE id="R08L6m" name="swt_abs_rt_off_s.png" compile="0" resource="1"
+              file="Source/images/swt_abs_rt_off_s.png"/>
+        <FILE id="BYccqJ" name="swt_abs_rt_on.png" compile="0" resource="1"
+              file="Source/images/swt_abs_rt_on.png"/>
+        <FILE id="YlAK5A" name="swt_abs_rt_on_s.png" compile="0" resource="1"
+              file="Source/images/swt_abs_rt_on_s.png"/>
+        <FILE id="nbDa4t" name="swt_abs_rw_off.png" compile="0" resource="1"
+              file="Source/images/swt_abs_rw_off.png"/>
+        <FILE id="sWosJ2" name="swt_abs_rw_off_s.png" compile="0" resource="1"
+              file="Source/images/swt_abs_rw_off_s.png"/>
+        <FILE id="Naat6P" name="swt_abs_rw_on.png" compile="0" resource="1"
+              file="Source/images/swt_abs_rw_on.png"/>
+        <FILE id="NRLOqO" name="swt_abs_rw_on_s.png" compile="0" resource="1"
+              file="Source/images/swt_abs_rw_on_s.png"/>
+        <FILE id="gi1gAf" name="swt_preview_ow_off.png" compile="0" resource="1"
+              file="Source/images/swt_preview_ow_off.png"/>
+        <FILE id="uyZXKe" name="swt_preview_ow_off_s.png" compile="0" resource="1"
+              file="Source/images/swt_preview_ow_off_s.png"/>
+        <FILE id="qjVF3U" name="swt_preview_ow_on.png" compile="0" resource="1"
+              file="Source/images/swt_preview_ow_on.png"/>
+        <FILE id="pzsHxw" name="swt_preview_ow_on_s.png" compile="0" resource="1"
+              file="Source/images/swt_preview_ow_on_s.png"/>
+        <FILE id="SmveQF" name="swt_review_or_off.png" compile="0" resource="1"
+              file="Source/images/swt_review_or_off.png"/>
+        <FILE id="I3X1C5" name="swt_review_or_off_s.png" compile="0" resource="1"
+              file="Source/images/swt_review_or_off_s.png"/>
+        <FILE id="Aa1hnJ" name="swt_review_or_on.png" compile="0" resource="1"
+              file="Source/images/swt_review_or_on.png"/>
+        <FILE id="AEqhsS" name="swt_review_or_on_s.png" compile="0" resource="1"
+              file="Source/images/swt_review_or_on_s.png"/>
+        <FILE id="vRhgYh" name="swt_Trim_rl_off.png" compile="0" resource="1"
+              file="Source/images/swt_Trim_rl_off.png"/>
+        <FILE id="jb07s3" name="swt_Trim_rl_off_s.png" compile="0" resource="1"
+              file="Source/images/swt_Trim_rl_off_s.png"/>
+        <FILE id="zntjNz" name="swt_Trim_rl_on.png" compile="0" resource="1"
+              file="Source/images/swt_Trim_rl_on.png"/>
+        <FILE id="VU9R0p" name="swt_Trim_rl_on_s.png" compile="0" resource="1"
+              file="Source/images/swt_Trim_rl_on_s.png"/>
+        <FILE id="WOTU2E" name="swt_Trim_rt_off copy.png" compile="0" resource="1"
+              file="Source/images/swt_Trim_rt_off copy.png"/>
+        <FILE id="HlC6CB" name="swt_Trim_rt_off.png" compile="0" resource="1"
+              file="Source/images/swt_Trim_rt_off.png"/>
+        <FILE id="AFA6Oc" name="swt_Trim_rt_off_s.png" compile="0" resource="1"
+              file="Source/images/swt_Trim_rt_off_s.png"/>
+        <FILE id="RKpbob" name="swt_Trim_rt_on.png" compile="0" resource="1"
+              file="Source/images/swt_Trim_rt_on.png"/>
+        <FILE id="gWILRQ" name="swt_Trim_rt_on_s.png" compile="0" resource="1"
+              file="Source/images/swt_Trim_rt_on_s.png"/>
+        <FILE id="aTHz68" name="swt_Trim_rw_off.png" compile="0" resource="1"
+              file="Source/images/swt_Trim_rw_off.png"/>
+        <FILE id="aObNkE" name="swt_Trim_rw_off_s.png" compile="0" resource="1"
+              file="Source/images/swt_Trim_rw_off_s.png"/>
+        <FILE id="GyEmeB" name="swt_Trim_rw_on.png" compile="0" resource="1"
+              file="Source/images/swt_Trim_rw_on.png"/>
+        <FILE id="CFYK6N" name="swt_Trim_rw_on_s.png" compile="0" resource="1"
+              file="Source/images/swt_Trim_rw_on_s.png"/>
+      </GROUP>
+      <GROUP id="{CC65EFCB-3C9A-2390-8BD9-6D14F7A21296}" name="CUT_images">
+        <FILE id="pw9UQX" name="lightbutton_off_cut.png" compile="0" resource="1"
+              file="Source/images/lightbutton_off_cut.png"/>
+        <FILE id="BPqeLo" name="lightbutton_on_cut.png" compile="0" resource="1"
+              file="Source/images/lightbutton_on_cut.png"/>
+        <FILE id="GZcpIS" name="mute.png" compile="0" resource="1" file="Source/images/mute.png"/>
+        <FILE id="GkGtZX" name="mute2.png" compile="0" resource="1" file="Source/images/mute2.png"/>
+      </GROUP>
+      <GROUP id="{7C66442F-5B75-28B2-8F75-14A94DD14657}" name="Fader_thumbs">
+        <FILE id="a1oDwr" name="TRIMfaderthumb_47x71.png" compile="0" resource="1"
+              file="Source/images/TRIMfaderthumb_47x71.png"/>
+        <FILE id="Qyt7CZ" name="red_faderthumb_noshadow_22x52.png" compile="0"
+              resource="1" file="Source/images/red_faderthumb_noshadow_22x52.png"/>
+        <FILE id="MdWl1u" name="green_faderthumb_noshadow_22x52.png" compile="0"
+              resource="1" file="Source/images/green_faderthumb_noshadow_22x52.png"/>
+        <FILE id="t4iUN6" name="faderthumb_47x71.png" compile="0" resource="1"
+              file="Source/images/faderthumb_47x71.png"/>
+        <FILE id="zL5F0z" name="faderthumb_noshadow_22x52.png" compile="0"
+              resource="1" file="Source/images/faderthumb_noshadow_22x52.png"/>
+        <FILE id="cCyCLL" name="faderthumb_shadow_47x71.png" compile="0" resource="1"
+              file="Source/images/faderthumb_shadow_47x71.png"/>
+        <FILE id="i5tA21" name="faderthumb_shadow_47x80.png" compile="0" resource="1"
+              file="Source/images/faderthumb_shadow_47x80.png"/>
+        <FILE id="kFWQgS" name="faderthumb_shadow_47x94.png" compile="0" resource="1"
+              file="Source/images/faderthumb_shadow_47x94.png"/>
+        <FILE id="BOcika" name="faderthumbTc_noshadow_22x52.png" compile="0"
+              resource="1" file="Source/images/faderthumbTc_noshadow_22x52.png"/>
+      </GROUP>
+      <GROUP id="{4AAAD158-A237-F0A4-89ED-25D14DF2BC32}" name="Link_images">
+        <FILE id="jEUU5U" name="Untitled 2.png" compile="0" resource="1" file="Source/images/Untitled 2.png"/>
+        <FILE id="hWByRP" name="Untitled.png" compile="0" resource="1" file="Source/images/Untitled.png"/>
+        <FILE id="OUHSN1" name="16_40test.png" compile="0" resource="1" file="Source/images/16_40test.png"/>
+        <FILE id="XI8Yp5" name="link_ button_off.png" compile="0" resource="1"
+              file="Source/images/link_ button_off.png"/>
+        <FILE id="uUrZDU" name="link_ button_on.png" compile="0" resource="1"
+              file="Source/images/link_ button_on.png"/>
+        <FILE id="bLeaq6" name="link_ button2.png" compile="0" resource="1"
+              file="Source/images/link_ button2.png"/>
+        <FILE id="lRK92s" name="link_button.png" compile="0" resource="1" file="Source/images/link_button.png"/>
+        <FILE id="ncop0A" name="link_button_off2.png" compile="0" resource="1"
+              file="Source/images/link_button_off2.png"/>
+        <FILE id="Ef4t8j" name="link_button_on2.png" compile="0" resource="1"
+              file="Source/images/link_button_on2.png"/>
+        <FILE id="lgZdgW" name="link_off_button.png" compile="0" resource="1"
+              file="Source/images/link_off_button.png"/>
+        <FILE id="KLhvgk" name="link_off_button_s.png" compile="0" resource="1"
+              file="Source/images/link_off_button_s.png"/>
+        <FILE id="SjczBy" name="link_on_button.png" compile="0" resource="1"
+              file="Source/images/link_on_button.png"/>
+        <FILE id="ESbQJM" name="link_on_button_s.png" compile="0" resource="1"
+              file="Source/images/link_on_button_s.png"/>
+        <FILE id="HiLfvP" name="silver-stress-ball (1).jpg" compile="0" resource="1"
+              file="Source/images/silver-stress-ball (1).jpg"/>
+        <FILE id="w5IHEz" name="silver-stress-ball (2).jpg" compile="0" resource="1"
+              file="Source/images/silver-stress-ball (2).jpg"/>
+        <FILE id="uCl7fj" name="silver-stress-ball.jpg" compile="0" resource="1"
+              file="Source/images/silver-stress-ball.jpg"/>
+        <FILE id="cYPTlG" name="silver-stress-ball.png" compile="0" resource="1"
+              file="Source/images/silver-stress-ball.png"/>
+        <FILE id="DHxdOK" name="silver_ball.jpeg" compile="0" resource="1"
+              file="Source/images/silver_ball.jpeg"/>
+        <FILE id="qmMKCD" name="silver_ball.png" compile="0" resource="1" file="Source/images/silver_ball.png"/>
+        <FILE id="zNv8eX" name="silverball_40_L.png" compile="0" resource="1"
+              file="Source/images/silverball_40_L.png"/>
+        <FILE id="qNsa1o" name="silverball_100.png" compile="0" resource="1"
+              file="Source/images/silverball_100.png"/>
+        <FILE id="CGqZkF" name="silverball_100_L.png" compile="0" resource="1"
+              file="Source/images/silverball_100_L.png"/>
+        <FILE id="hWlzGa" name="Silverball_100_link_L.png" compile="0" resource="1"
+              file="Source/images/Silverball_100_link_L.png"/>
+        <FILE id="RKcjJ7" name="silverball_100_link_OFF.png" compile="0" resource="1"
+              file="Source/images/silverball_100_link_OFF.png"/>
+        <FILE id="jH6kBi" name="silverball_100_link_ON.png" compile="0" resource="1"
+              file="Source/images/silverball_100_link_ON.png"/>
+        <FILE id="Y1W5lu" name="Green_silverball_40_L.png" compile="0" resource="1"
+              file="Source/images/Green_silverball_40_L.png"/>
+        <FILE id="YxbzNw" name="Green_silverball_40_no_text.png" compile="0"
+              resource="1" file="Source/images/Green_silverball_40_no_text.png"/>
+        <FILE id="wiHupp" name="Green_silverball_50_no_text.png" compile="0"
+              resource="1" file="Source/images/Green_silverball_50_no_text.png"/>
+        <FILE id="asx88Y" name="Green_silverball_100_L.png" compile="0" resource="1"
+              file="Source/images/Green_silverball_100_L.png"/>
+        <FILE id="j8B5y6" name="Green_silverball_160_no_text.png" compile="0"
+              resource="1" file="Source/images/Green_silverball_160_no_text.png"/>
+        <FILE id="iNXlJg" name="Green_silverball_300_no_text.png" compile="0"
+              resource="1" file="Source/images/Green_silverball_300_no_text.png"/>
+        <FILE id="WqDoKq" name="Green_silverball_3000_no_text.png" compile="0"
+              resource="1" file="Source/images/Green_silverball_3000_no_text.png"/>
+        <FILE id="yvGLEi" name="Green_silverbar_5_25_no_text.png" compile="0"
+              resource="1" file="Source/images/Green_silverbar_5_25_no_text.png"/>
+        <FILE id="dDpjf2" name="Green_silverbar_10_25_no_text.png" compile="0"
+              resource="1" file="Source/images/Green_silverbar_10_25_no_text.png"/>
+      </GROUP>
+      <GROUP id="{264DD626-A602-88B4-FD15-9CC2C69965AA}" name="Logo">
+        <FILE id="z4UPpK" name="tai_crest_64.png" compile="0" resource="1"
+              file="Source/images/tai_crest_64.png"/>
+        <FILE id="I1ZEcQ" name="tangerine_16_16.png" compile="0" resource="1"
+              file="Source/images/tangerine_16_16.png"/>
+        <FILE id="a0xm2n" name="tangerine_32_32.png" compile="0" resource="1"
+              file="Source/images/tangerine_32_32.png"/>
+        <FILE id="mJAK5i" name="tangerine_128_128.png" compile="0" resource="1"
+              file="Source/images/tangerine_128_128.png"/>
+        <FILE id="vko2Me" name="tangerine_256_256.png" compile="0" resource="1"
+              file="Source/images/tangerine_256_256.png"/>
+        <FILE id="H8GEsg" name="tangerine_270_270.png" compile="0" resource="1"
+              file="Source/images/tangerine_270_270.png"/>
+        <FILE id="ps6IUh" name="tangerine_512_512.png" compile="0" resource="1"
+              file="Source/images/tangerine_512_512.png"/>
+      </GROUP>
+      <GROUP id="{521048FC-0B3A-2896-F17B-2B7B285E7F15}" name="fader_plates_and_scales">
+        <FILE id="L0PzUW" name="ptools_scale.png" compile="0" resource="1"
+              file="Source/images/ptools_scale.png"/>
+        <FILE id="TnDGiD" name="new_uf_db_scale_x8.png" compile="0" resource="1"
+              file="Source/images/new_uf_db_scale_x8.png"/>
+        <FILE id="GgHKai" name="new_uf_db_scale_x8_original.png" compile="0"
+              resource="1" file="Source/images/new_uf_db_scale_x8_original.png"/>
+        <FILE id="ptPgra" name="new_vca_db_scale_single.png" compile="0" resource="1"
+              file="Source/images/new_vca_db_scale_single.png"/>
+        <FILE id="U8G9g9" name="new_vca_db_scale_x8.png" compile="0" resource="1"
+              file="Source/images/new_vca_db_scale_x8.png"/>
+        <FILE id="Ey1JDJ" name="mcp_volbg.png" compile="0" resource="1" file="Source/images/mcp_volbg.png"/>
+        <FILE id="TiCQD2" name="blank_fader8_plate_352_462.png" compile="0"
+              resource="1" file="Source/images/blank_fader8_plate_352_462.png"/>
+        <FILE id="Kabsay" name="blank_plate_44_462.png" compile="0" resource="1"
+              file="Source/images/blank_plate_44_462.png"/>
+        <FILE id="g0w3jM" name="db_scale copy.png" compile="0" resource="1"
+              file="Source/images/db_scale copy.png"/>
+        <FILE id="kKfhV4" name="db_scale.png" compile="0" resource="1" file="Source/images/db_scale.png"/>
+        <FILE id="BeLftx" name="fader_plate_44_443_noscale copy.png" compile="0"
+              resource="1" file="Source/images/fader_plate_44_443_noscale copy.png"/>
+        <FILE id="jC5RCi" name="fader_plate_44_443_scale.png" compile="0" resource="1"
+              file="Source/images/fader_plate_44_443_scale.png"/>
+        <FILE id="R3JiJc" name="fader_plate_44_462_newscale.png" compile="0"
+              resource="1" file="Source/images/fader_plate_44_462_newscale.png"/>
+        <FILE id="wQvRq6" name="fader_plate_44_462_newscale2.png" compile="0"
+              resource="1" file="Source/images/fader_plate_44_462_newscale2.png"/>
+        <FILE id="Ainxyc" name="fader_plate_44_462_noscale copy.png" compile="0"
+              resource="1" file="Source/images/fader_plate_44_462_noscale copy.png"/>
+        <FILE id="wjmRyU" name="fader_plate_44_462_noscale.png" compile="0"
+              resource="1" file="Source/images/fader_plate_44_462_noscale.png"/>
+        <FILE id="Osb1WM" name="fader_plate_46_363_noscale.png" compile="0"
+              resource="1" file="Source/images/fader_plate_46_363_noscale.png"/>
+        <FILE id="Whrvky" name="fader_plate_46_463_scale.png" compile="0" resource="1"
+              file="Source/images/fader_plate_46_463_scale.png"/>
+        <FILE id="qrIJkQ" name="fader_plate_462_110.png" compile="0" resource="1"
+              file="Source/images/fader_plate_462_110.png"/>
+        <FILE id="wtyCGo" name="fader_plate_462_110_full.png" compile="0" resource="1"
+              file="Source/images/fader_plate_462_110_full.png"/>
+        <FILE id="rccQJG" name="fader_plate_482_110.png" compile="0" resource="1"
+              file="Source/images/fader_plate_482_110.png"/>
+        <FILE id="IGgvS0" name="fader_plate_500_83 copy.png" compile="0" resource="1"
+              file="Source/images/fader_plate_500_83 copy.png"/>
+        <FILE id="LFSxXg" name="fader_plate_500_83.png" compile="0" resource="1"
+              file="Source/images/fader_plate_500_83.png"/>
+        <FILE id="p21QgH" name="fader_plate_500_83_leds.png" compile="0" resource="1"
+              file="Source/images/fader_plate_500_83_leds.png"/>
+        <FILE id="xvFRLa" name="fader_plate_520_47.png" compile="0" resource="1"
+              file="Source/images/fader_plate_520_47.png"/>
+        <FILE id="GFMOEe" name="fader_plate2_44_462 copy.png" compile="0" resource="1"
+              file="Source/images/fader_plate2_44_462 copy.png"/>
+        <FILE id="EyLcls" name="fader8_plate_352_443.png" compile="0" resource="1"
+              file="Source/images/fader8_plate_352_443.png"/>
+        <FILE id="j9L2iZ" name="fader8_plate_352_462.png" compile="0" resource="1"
+              file="Source/images/fader8_plate_352_462.png"/>
+        <FILE id="WnIdQi" name="fader8_plate_368_463.png" compile="0" resource="1"
+              file="Source/images/fader8_plate_368_463.png"/>
+      </GROUP>
+      <GROUP id="{4CBBD3B5-F195-C1F9-94CA-652CC509A331}" name="Classic_switch">
+        <FILE id="dshFRr" name="classic_black_100x33 copy.png" compile="0"
+              resource="1" file="Source/images/classic_black_100x33 copy.png"/>
+        <FILE id="DQlEJA" name="classic_black_100x33.png" compile="0" resource="1"
+              file="Source/images/classic_black_100x33.png"/>
+        <FILE id="xLIgSx" name="classic_black_100x33_newgame.png" compile="0"
+              resource="1" file="Source/images/classic_black_100x33_newgame.png"/>
+        <FILE id="omH86m" name="classic_black_105x30.png" compile="0" resource="1"
+              file="Source/images/classic_black_105x30.png"/>
+        <FILE id="JkX3pV" name="classic_black_abs_latch_105x30.png" compile="0"
+              resource="1" file="Source/images/classic_black_abs_latch_105x30.png"/>
+        <FILE id="OYLF9Q" name="classic_black_abs_read_105x30.png" compile="0"
+              resource="1" file="Source/images/classic_black_abs_read_105x30.png"/>
+        <FILE id="mDKAln" name="classic_black_abs_touch_105x30.png" compile="0"
+              resource="1" file="Source/images/classic_black_abs_touch_105x30.png"/>
+        <FILE id="L3sFC5" name="classic_black_abs_write_105x30.png" compile="0"
+              resource="1" file="Source/images/classic_black_abs_write_105x30.png"/>
+        <FILE id="HiXwoI" name="classic_black_latch_100x33.png" compile="0"
+              resource="1" file="Source/images/classic_black_latch_100x33.png"/>
+        <FILE id="ZGFYZE" name="classic_black_latch_105x30.png" compile="0"
+              resource="1" file="Source/images/classic_black_latch_105x30.png"/>
+        <FILE id="scqGTw" name="classic_black_off_100x33.png" compile="0" resource="1"
+              file="Source/images/classic_black_off_100x33.png"/>
+        <FILE id="scRZNN" name="classic_black_off_105x30.png" compile="0" resource="1"
+              file="Source/images/classic_black_off_105x30.png"/>
+        <FILE id="RCy6sF" name="classic_black_read_100x33.png" compile="0"
+              resource="1" file="Source/images/classic_black_read_100x33.png"/>
+        <FILE id="CzBpwX" name="classic_black_read_105x30.png" compile="0"
+              resource="1" file="Source/images/classic_black_read_105x30.png"/>
+        <FILE id="vqYok8" name="classic_black_set_all_105x30.png" compile="0"
+              resource="1" file="Source/images/classic_black_set_all_105x30.png"/>
+        <FILE id="lnQeRp" name="classic_black_set_all_abs_105x30.png" compile="0"
+              resource="1" file="Source/images/classic_black_set_all_abs_105x30.png"/>
+        <FILE id="kq9flr" name="classic_black_set_all_abs100x33.png" compile="0"
+              resource="1" file="Source/images/classic_black_set_all_abs100x33.png"/>
+        <FILE id="LeZs4V" name="classic_black_set_all_trim_100x33.png" compile="0"
+              resource="1" file="Source/images/classic_black_set_all_trim_100x33.png"/>
+        <FILE id="qtKJJa" name="classic_black_set_all_trim_105x30.png" compile="0"
+              resource="1" file="Source/images/classic_black_set_all_trim_105x30.png"/>
+        <FILE id="FVO3sR" name="classic_black_touch_100x33.png" compile="0"
+              resource="1" file="Source/images/classic_black_touch_100x33.png"/>
+        <FILE id="ZgU8b3" name="classic_black_touch_105x30.png" compile="0"
+              resource="1" file="Source/images/classic_black_touch_105x30.png"/>
+        <FILE id="eyGsK7" name="classic_black_trim_latch_105x30.png" compile="0"
+              resource="1" file="Source/images/classic_black_trim_latch_105x30.png"/>
+        <FILE id="vtn3vw" name="classic_black_trim_read_105x30.png" compile="0"
+              resource="1" file="Source/images/classic_black_trim_read_105x30.png"/>
+        <FILE id="qravt9" name="classic_black_trim_touch_105x30.png" compile="0"
+              resource="1" file="Source/images/classic_black_trim_touch_105x30.png"/>
+        <FILE id="ak2Tn8" name="classic_black_trim_write_105x30.png" compile="0"
+              resource="1" file="Source/images/classic_black_trim_write_105x30.png"/>
+        <FILE id="ItnWJ1" name="classic_black_write_100x33.png" compile="0"
+              resource="1" file="Source/images/classic_black_write_100x33.png"/>
+        <FILE id="bEHyda" name="classic_black_write_105x30.png" compile="0"
+              resource="1" file="Source/images/classic_black_write_105x30.png"/>
+        <FILE id="gz8akZ" name="classic_blank_button_backup.png" compile="0"
+              resource="1" file="Source/images/classic_blank_button_backup.png"/>
+        <FILE id="IZRaIS" name="classic_blank_button_backup.zip" compile="0"
+              resource="1" file="Source/images/classic_blank_button_backup.zip"/>
+        <FILE id="KIy49m" name="classic_green_100x33.png" compile="0" resource="1"
+              file="Source/images/classic_green_100x33.png"/>
+        <FILE id="nFBOcT" name="classic_green_100x33_MIX_ON.png" compile="0"
+              resource="1" file="Source/images/classic_green_100x33_MIX_ON.png"/>
+        <FILE id="mxZYC8" name="classic_green_100x33_play.png" compile="0"
+              resource="1" file="Source/images/classic_green_100x33_play.png"/>
+        <FILE id="pTpysa" name="classic_green_button copy.png" compile="0"
+              resource="1" file="Source/images/classic_green_button copy.png"/>
+        <FILE id="KpLsJm" name="classic_green_button.png" compile="0" resource="1"
+              file="Source/images/classic_green_button.png"/>
+        <FILE id="G9oJNI" name="classic_green_button_8.png" compile="0" resource="1"
+              file="Source/images/classic_green_button_8.png"/>
+        <FILE id="Ox29oo" name="classic_green_button_16.png" compile="0" resource="1"
+              file="Source/images/classic_green_button_16.png"/>
+        <FILE id="i1Jpv6" name="classic_green_button_24.png" compile="0" resource="1"
+              file="Source/images/classic_green_button_24.png"/>
+        <FILE id="O8IpvJ" name="classic_green_button_32.png" compile="0" resource="1"
+              file="Source/images/classic_green_button_32.png"/>
+        <FILE id="T4Nqya" name="classic_green_button_100_100_down.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_100_100_down.png"/>
+        <FILE id="Bie0BQ" name="classic_green_button_100_100_first.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_100_100_first.png"/>
+        <FILE id="PyGRG6" name="classic_green_button_100_100_last.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_100_100_last.png"/>
+        <FILE id="Pi7FFv" name="classic_green_button_100_100_up.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_100_100_up.png"/>
+        <FILE id="qHIpmF" name="classic_green_button_cuts.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_cuts.png"/>
+        <FILE id="Ue5E1Z" name="classic_green_button_cuts_only.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_cuts_only.png"/>
+        <FILE id="eJVZbN" name="classic_green_button_cuts_only_s.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_cuts_only_s.png"/>
+        <FILE id="nrmqiT" name="classic_green_button_cuts_s.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_cuts_s.png"/>
+        <FILE id="GqmwOE" name="classic_green_button_DOWN_s.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_DOWN_s.png"/>
+        <FILE id="BiFjrx" name="classic_green_button_DOWN2_s.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_DOWN2_s.png"/>
+        <FILE id="Bb6gxy" name="classic_green_button_fader.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_fader.png"/>
+        <FILE id="c17htL" name="classic_green_button_fader_s.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_fader_s.png"/>
+        <FILE id="tESSrA" name="classic_green_button_trim.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_trim.png"/>
+        <FILE id="uGJqee" name="classic_green_button_UP_s.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_UP_s.png"/>
+        <FILE id="RzZops" name="classic_green_button_UP2.png" compile="0" resource="1"
+              file="Source/images/classic_green_button_UP2.png"/>
+        <FILE id="TqzhEF" name="classic_green_button_UP2_s.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_UP2_s.png"/>
+        <FILE id="KVwnie" name="classic_green_button_volume.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_volume.png"/>
+        <FILE id="FjqmIa" name="classic_green_button_volume_only.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_volume_only.png"/>
+        <FILE id="Lctk75" name="classic_green_button_volume_only_s.png" compile="0"
+              resource="1" file="Source/images/classic_green_button_volume_only_s.png"/>
+        <FILE id="dMTJcx" name="classic_grey_100x33.png" compile="0" resource="1"
+              file="Source/images/classic_grey_100x33.png"/>
+        <FILE id="GIPjbI" name="classic_grey_100x33_MIX_OFF.png" compile="0"
+              resource="1" file="Source/images/classic_grey_100x33_MIX_OFF.png"/>
+        <FILE id="IZC7Lf" name="classic_grey_100x33_resume.png" compile="0"
+              resource="1" file="Source/images/classic_grey_100x33_resume.png"/>
+        <FILE id="Vl4hAS" name="classic_grey_button.png" compile="0" resource="1"
+              file="Source/images/classic_grey_button.png"/>
+        <FILE id="KXza13" name="classic_grey_button_8.png" compile="0" resource="1"
+              file="Source/images/classic_grey_button_8.png"/>
+        <FILE id="htzJZB" name="classic_grey_button_16.png" compile="0" resource="1"
+              file="Source/images/classic_grey_button_16.png"/>
+        <FILE id="aR6wyI" name="classic_grey_button_24.png" compile="0" resource="1"
+              file="Source/images/classic_grey_button_24.png"/>
+        <FILE id="OQiyIq" name="classic_grey_button_32.png" compile="0" resource="1"
+              file="Source/images/classic_grey_button_32.png"/>
+        <FILE id="ewpR6X" name="classic_grey_button_100_100_down.png" compile="0"
+              resource="1" file="Source/images/classic_grey_button_100_100_down.png"/>
+        <FILE id="uuIJQX" name="classic_grey_button_100_100_first.png" compile="0"
+              resource="1" file="Source/images/classic_grey_button_100_100_first.png"/>
+        <FILE id="pdLEvV" name="classic_grey_button_100_100_last.png" compile="0"
+              resource="1" file="Source/images/classic_grey_button_100_100_last.png"/>
+        <FILE id="jo2SX9" name="classic_grey_button_100_100_up.png" compile="0"
+              resource="1" file="Source/images/classic_grey_button_100_100_up.png"/>
+        <FILE id="SEguxN" name="classic_grey_button_cuts.png" compile="0" resource="1"
+              file="Source/images/classic_grey_button_cuts.png"/>
+        <FILE id="LVNWPt" name="classic_grey_button_cuts_only.png" compile="0"
+              resource="1" file="Source/images/classic_grey_button_cuts_only.png"/>
+        <FILE id="Dha8oz" name="classic_grey_button_cuts_only_blk.png" compile="0"
+              resource="1" file="Source/images/classic_grey_button_cuts_only_blk.png"/>
+        <FILE id="TMjWUx" name="classic_grey_button_cuts_only_wht.png" compile="0"
+              resource="1" file="Source/images/classic_grey_button_cuts_only_wht.png"/>
+        <FILE id="ObfgYd" name="classic_grey_button_cuts_only_wht_s.png" compile="0"
+              resource="1" file="Source/images/classic_grey_button_cuts_only_wht_s.png"/>
+        <FILE id="coaDzV" name="classic_grey_button_cuts_s.png" compile="0"
+              resource="1" file="Source/images/classic_grey_button_cuts_s.png"/>
+        <FILE id="WO7IjJ" name="classic_grey_button_fader.png" compile="0"
+              resource="1" file="Source/images/classic_grey_button_fader.png"/>
+        <FILE id="T706Ik" name="classic_grey_button_fader_s.png" compile="0"
+              resource="1" file="Source/images/classic_grey_button_fader_s.png"/>
+        <FILE id="sALMtv" name="classic_grey_button_trim.png" compile="0" resource="1"
+              file="Source/images/classic_grey_button_trim.png"/>
+        <FILE id="R7s0LX" name="classic_grey_button_volume.png" compile="0"
+              resource="1" file="Source/images/classic_grey_button_volume.png"/>
+        <FILE id="mnwpgi" name="classic_grey_button_volume_only.png" compile="0"
+              resource="1" file="Source/images/classic_grey_button_volume_only.png"/>
+        <FILE id="nreUcP" name="classic_grey_button_volume_only_blk.png" compile="0"
+              resource="1" file="Source/images/classic_grey_button_volume_only_blk.png"/>
+        <FILE id="nHG9gH" name="classic_grey_button_volume_only_wht.png" compile="0"
+              resource="1" file="Source/images/classic_grey_button_volume_only_wht.png"/>
+        <FILE id="TXe9vL" name="classic_grey_button_volume_only_wht_s.png"
+              compile="0" resource="1" file="Source/images/classic_grey_button_volume_only_wht_s.png"/>
+        <FILE id="pbOSyE" name="classic_orange_100x33.png" compile="0" resource="1"
+              file="Source/images/classic_orange_100x33.png"/>
+        <FILE id="bf2xNT" name="classic_orange_100x33_pause.png" compile="0"
+              resource="1" file="Source/images/classic_orange_100x33_pause.png"/>
+        <FILE id="GINkro" name="classic_red_100x33.png" compile="0" resource="1"
+              file="Source/images/classic_red_100x33.png"/>
+        <FILE id="TLqocH" name="classic_red_100x33_mix_off.png" compile="0"
+              resource="1" file="Source/images/classic_red_100x33_mix_off.png"/>
+        <FILE id="B4nNcU" name="classic_red_100x33_stop.png" compile="0" resource="1"
+              file="Source/images/classic_red_100x33_stop.png"/>
+        <FILE id="SU7TuH" name="classic_red_button.png" compile="0" resource="1"
+              file="Source/images/classic_red_button.png"/>
+        <FILE id="jApBCD" name="classic_red_button_cuts_only.png" compile="0"
+              resource="1" file="Source/images/classic_red_button_cuts_only.png"/>
+        <FILE id="Oi2E47" name="classic_red_button_cuts_only_s.png" compile="0"
+              resource="1" file="Source/images/classic_red_button_cuts_only_s.png"/>
+        <FILE id="LxEqZ0" name="classic_red_button_volume_only.png" compile="0"
+              resource="1" file="Source/images/classic_red_button_volume_only.png"/>
+        <FILE id="q16uLs" name="classic_red_button_volume_only_s.png" compile="0"
+              resource="1" file="Source/images/classic_red_button_volume_only_s.png"/>
+      </GROUP>
+      <FILE id="uxigq4" name="help.png" compile="0" resource="1" file="Source/images/help.png"/>
+    </GROUP>
+    <GROUP id="{459EC0C1-E054-F29B-C037-986C040DB295}" name="Source">
+      <FILE id="nxYrmn" name="fromConsoleDataMgrProcessor.cpp" compile="0"
+            resource="0" file="Source/fromConsoleDataMgrProcessor.cpp"/>
+      <FILE id="CXecdl" name="gestureManagersProcessor.cpp" compile="0" resource="0"
+            file="Source/gestureManagersProcessor.cpp"/>
+      <FILE id="xagEMH" name="ProcessorInitfonctions.cpp" compile="1" resource="0"
+            file="Source/ProcessorInitfonctions.cpp"/>
+      <FILE id="iq9TkJ" name="Processor_fonctions.h" compile="0" resource="0"
+            file="Source/Processor_fonctions.h"/>
+      <FILE id="EcXrkW" name="PipeComm.cpp" compile="1" resource="0" file="Source/PipeComm.cpp"/>
+      <FILE id="gEp5Av" name="PipeComm.h" compile="0" resource="0" file="Source/PipeComm.h"/>
+      <FILE id="EHdtd2" name="PluginEditor_V0_9w.cpp" compile="1" resource="0"
+            file="Source/PluginEditor_V0_9w.cpp"/>
+      <FILE id="PvoY2Z" name="PluginEditor_V0_9w.h" compile="0" resource="0"
+            file="Source/PluginEditor_V0_9w.h"/>
+      <FILE id="rMX0xv" name="PluginProcessor_V0_9w.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor_V0_9w.cpp"/>
+      <FILE id="heRqxk" name="PluginProcessor_V0_9w.h" compile="0" resource="0"
+            file="Source/PluginProcessor_V0_9w.h"/>
+      <FILE id="lNLmC7" name="taigames.h" compile="0" resource="0" file="Source/taigames.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" postbuildCommand="# echo gvugzu | sudo -S  /Applications/PACEAntiPiracy/Eden/Fusion/Current/bin/wraptool sign --verbose --account thd-labs --password Taigvugzu@9497 --signid daniel@thd-labs.com --wcguid A7EB08C0-3697-11E8-A8DC-005056875CC3 --in ~/Desktop/TaiMotherShip.aaxplugin --out /Library/Application\ Support/Avid/Audio/Plug-Ins/TaiMotherShip.aaxplugin&#10;&#10;#echo gvugzu | sudo -S  /Applications/PACEAntiPiracy/Eden/Fusion/Current/bin/wraptool sign --verbose --account thd-labs --password Taigvugzu@9497 --signid daniel@thd-labs.com --wcguid A7EB08C0-3697-11E8-A8DC-005056875CC3 --in ~/Desktop/TaiMotherShip.aaxplugin --out ~/Desktop/injektor_Installer_payload/V0_9x/TaiPlugins/TaiMotherShip.aaxplugin&#10;">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" aaxBinaryLocation="$(HOME)/Desktop/"
+                       codeSigningIdentity="Mac Developer" osxCompatibility="10.8 SDK"
+                       osxArchitecture="64BitIntel" osxSDK="10.13 SDK"/>
+        <CONFIGURATION isDebug="0" name="Release" aaxBinaryLocation="$(HOME)/Desktop/"
+                       osxCompatibility="10.8 SDK" osxArchitecture="64BitIntel" codeSigningIdentity="Mac Developer"
+                       osxSDK="10.13 SDK"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../07 PLUGINS_SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../07 PLUGINS_SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../07 PLUGINS_SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../07 PLUGINS_SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../07 PLUGINS_SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../07 PLUGINS_SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../07 PLUGINS_SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../07 PLUGINS_SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../07 PLUGINS_SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../07 PLUGINS_SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../07 PLUGINS_SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../07 PLUGINS_SDK/JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="../../../07 PLUGINS_SDK/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
