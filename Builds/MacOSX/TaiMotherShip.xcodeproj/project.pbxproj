@@ -45,42 +45,6 @@
 		5B3662A04E557B4C6E1690BA /* include_juce_core.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD1AC0ACBD420E5B5A6DF3C7 /* include_juce_core.mm */; };
 		63EC3457464CB088AB3A93D6 /* include_juce_audio_plugin_client_AU_2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36E371B83EFE7602C939EF7B /* include_juce_audio_plugin_client_AU_2.mm */; };
 		656D387F8F693D0EF3BF8AC0 /* include_juce_audio_plugin_client_VST2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A094A69EDFFC09B7A369CBCA /* include_juce_audio_plugin_client_VST2.cpp */; };
-		65B26EE125560B340017BCED /* RecentFilesMenuTemplate.nib in Resources */ = {isa = PBXBuildFile; fileRef = 9CA8D92643D73313DCBE3DA1 /* RecentFilesMenuTemplate.nib */; };
-		65B26EE225560B340017BCED /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0DDB163CA7E369D219912E /* Accelerate.framework */; };
-		65B26EE325560B340017BCED /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A418EB035F897BBAB710493 /* AudioToolbox.framework */; };
-		65B26EE425560B340017BCED /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0070E564B310C98736241D /* Carbon.framework */; };
-		65B26EE525560B340017BCED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653A41440599893A47EAB236 /* Cocoa.framework */; };
-		65B26EE625560B340017BCED /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A76F401A353DB659573942 /* CoreAudio.framework */; };
-		65B26EE725560B340017BCED /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E2CFD272E015D18E902913 /* CoreAudioKit.framework */; };
-		65B26EE825560B340017BCED /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE60FE46C06406DC0FF4B93 /* CoreMIDI.framework */; };
-		65B26EE925560B340017BCED /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8B582D271BBE5DA835295A /* DiscRecording.framework */; };
-		65B26EEA25560B340017BCED /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0D03CEBF59DAFC5BC12D30 /* IOKit.framework */; };
-		65B26EEB25560B340017BCED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57D6497EEC467765A5A8585 /* QuartzCore.framework */; };
-		65B26EEC25560B340017BCED /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F3F4170C90E9AF575FD4CF /* WebKit.framework */; };
-		65B26EED25560B340017BCED /* RecentFilesMenuTemplate.nib in Resources */ = {isa = PBXBuildFile; fileRef = 9CA8D92643D73313DCBE3DA1 /* RecentFilesMenuTemplate.nib */; };
-		65B26EEE25560B340017BCED /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0DDB163CA7E369D219912E /* Accelerate.framework */; };
-		65B26EEF25560B340017BCED /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A418EB035F897BBAB710493 /* AudioToolbox.framework */; };
-		65B26EF025560B340017BCED /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0070E564B310C98736241D /* Carbon.framework */; };
-		65B26EF125560B340017BCED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653A41440599893A47EAB236 /* Cocoa.framework */; };
-		65B26EF225560B340017BCED /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A76F401A353DB659573942 /* CoreAudio.framework */; };
-		65B26EF325560B340017BCED /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E2CFD272E015D18E902913 /* CoreAudioKit.framework */; };
-		65B26EF425560B340017BCED /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE60FE46C06406DC0FF4B93 /* CoreMIDI.framework */; };
-		65B26EF525560B340017BCED /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8B582D271BBE5DA835295A /* DiscRecording.framework */; };
-		65B26EF625560B340017BCED /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0D03CEBF59DAFC5BC12D30 /* IOKit.framework */; };
-		65B26EF725560B340017BCED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57D6497EEC467765A5A8585 /* QuartzCore.framework */; };
-		65B26EF825560B340017BCED /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F3F4170C90E9AF575FD4CF /* WebKit.framework */; };
-		65B26EF925560B340017BCED /* RecentFilesMenuTemplate.nib in Resources */ = {isa = PBXBuildFile; fileRef = 9CA8D92643D73313DCBE3DA1 /* RecentFilesMenuTemplate.nib */; };
-		65B26EFA25560B340017BCED /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0DDB163CA7E369D219912E /* Accelerate.framework */; };
-		65B26EFB25560B340017BCED /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A418EB035F897BBAB710493 /* AudioToolbox.framework */; };
-		65B26EFC25560B340017BCED /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0070E564B310C98736241D /* Carbon.framework */; };
-		65B26EFD25560B340017BCED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653A41440599893A47EAB236 /* Cocoa.framework */; };
-		65B26EFE25560B340017BCED /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A76F401A353DB659573942 /* CoreAudio.framework */; };
-		65B26EFF25560B340017BCED /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E2CFD272E015D18E902913 /* CoreAudioKit.framework */; };
-		65B26F0025560B340017BCED /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE60FE46C06406DC0FF4B93 /* CoreMIDI.framework */; };
-		65B26F0125560B340017BCED /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8B582D271BBE5DA835295A /* DiscRecording.framework */; };
-		65B26F0225560B340017BCED /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0D03CEBF59DAFC5BC12D30 /* IOKit.framework */; };
-		65B26F0325560B340017BCED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57D6497EEC467765A5A8585 /* QuartzCore.framework */; };
-		65B26F0425560B340017BCED /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F3F4170C90E9AF575FD4CF /* WebKit.framework */; };
 		673FCDC8D45EF6A6B6B2864D /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE60FE46C06406DC0FF4B93 /* CoreMIDI.framework */; };
 		68BEE0367CFA945F444D7B72 /* include_juce_audio_plugin_client_AU_1.mm in Sources */ = {isa = PBXBuildFile; fileRef = E0BA1A0C1A526A43E6882818 /* include_juce_audio_plugin_client_AU_1.mm */; };
 		7519FE8062E397615F9BFD03 /* include_juce_audio_plugin_client_AAX.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6602278FE6B82C648C9095F4 /* include_juce_audio_plugin_client_AAX.mm */; };
@@ -89,6 +53,42 @@
 		7E70390CF4D76A174168A8F5 /* include_juce_gui_extra.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3E8D73F2E90DE539F5108F5 /* include_juce_gui_extra.mm */; };
 		7F7CAC296076A092AE92E019 /* PipeComm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7429E54DDE049344682DDDB7 /* PipeComm.cpp */; };
 		81AC673DE78033D8DCD88F16 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0DDB163CA7E369D219912E /* Accelerate.framework */; };
+		8472A1DB25CBAFBC005AFD59 /* RecentFilesMenuTemplate.nib in Resources */ = {isa = PBXBuildFile; fileRef = 9CA8D92643D73313DCBE3DA1 /* RecentFilesMenuTemplate.nib */; };
+		8472A1DC25CBAFBC005AFD59 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0DDB163CA7E369D219912E /* Accelerate.framework */; };
+		8472A1DD25CBAFBC005AFD59 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A418EB035F897BBAB710493 /* AudioToolbox.framework */; };
+		8472A1DE25CBAFBC005AFD59 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0070E564B310C98736241D /* Carbon.framework */; };
+		8472A1DF25CBAFBC005AFD59 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653A41440599893A47EAB236 /* Cocoa.framework */; };
+		8472A1E025CBAFBC005AFD59 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A76F401A353DB659573942 /* CoreAudio.framework */; };
+		8472A1E125CBAFBC005AFD59 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E2CFD272E015D18E902913 /* CoreAudioKit.framework */; };
+		8472A1E225CBAFBC005AFD59 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE60FE46C06406DC0FF4B93 /* CoreMIDI.framework */; };
+		8472A1E325CBAFBC005AFD59 /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8B582D271BBE5DA835295A /* DiscRecording.framework */; };
+		8472A1E425CBAFBC005AFD59 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0D03CEBF59DAFC5BC12D30 /* IOKit.framework */; };
+		8472A1E525CBAFBC005AFD59 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57D6497EEC467765A5A8585 /* QuartzCore.framework */; };
+		8472A1E625CBAFBC005AFD59 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F3F4170C90E9AF575FD4CF /* WebKit.framework */; };
+		8472A1E725CBAFBC005AFD59 /* RecentFilesMenuTemplate.nib in Resources */ = {isa = PBXBuildFile; fileRef = 9CA8D92643D73313DCBE3DA1 /* RecentFilesMenuTemplate.nib */; };
+		8472A1E825CBAFBC005AFD59 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0DDB163CA7E369D219912E /* Accelerate.framework */; };
+		8472A1E925CBAFBC005AFD59 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A418EB035F897BBAB710493 /* AudioToolbox.framework */; };
+		8472A1EA25CBAFBC005AFD59 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0070E564B310C98736241D /* Carbon.framework */; };
+		8472A1EB25CBAFBC005AFD59 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653A41440599893A47EAB236 /* Cocoa.framework */; };
+		8472A1EC25CBAFBC005AFD59 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A76F401A353DB659573942 /* CoreAudio.framework */; };
+		8472A1ED25CBAFBC005AFD59 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E2CFD272E015D18E902913 /* CoreAudioKit.framework */; };
+		8472A1EE25CBAFBC005AFD59 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE60FE46C06406DC0FF4B93 /* CoreMIDI.framework */; };
+		8472A1EF25CBAFBC005AFD59 /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8B582D271BBE5DA835295A /* DiscRecording.framework */; };
+		8472A1F025CBAFBC005AFD59 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0D03CEBF59DAFC5BC12D30 /* IOKit.framework */; };
+		8472A1F125CBAFBC005AFD59 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57D6497EEC467765A5A8585 /* QuartzCore.framework */; };
+		8472A1F225CBAFBC005AFD59 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F3F4170C90E9AF575FD4CF /* WebKit.framework */; };
+		8472A1F325CBAFBC005AFD59 /* RecentFilesMenuTemplate.nib in Resources */ = {isa = PBXBuildFile; fileRef = 9CA8D92643D73313DCBE3DA1 /* RecentFilesMenuTemplate.nib */; };
+		8472A1F425CBAFBC005AFD59 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0DDB163CA7E369D219912E /* Accelerate.framework */; };
+		8472A1F525CBAFBC005AFD59 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A418EB035F897BBAB710493 /* AudioToolbox.framework */; };
+		8472A1F625CBAFBC005AFD59 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0070E564B310C98736241D /* Carbon.framework */; };
+		8472A1F725CBAFBC005AFD59 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653A41440599893A47EAB236 /* Cocoa.framework */; };
+		8472A1F825CBAFBC005AFD59 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A76F401A353DB659573942 /* CoreAudio.framework */; };
+		8472A1F925CBAFBC005AFD59 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E2CFD272E015D18E902913 /* CoreAudioKit.framework */; };
+		8472A1FA25CBAFBC005AFD59 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE60FE46C06406DC0FF4B93 /* CoreMIDI.framework */; };
+		8472A1FB25CBAFBC005AFD59 /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8B582D271BBE5DA835295A /* DiscRecording.framework */; };
+		8472A1FC25CBAFBC005AFD59 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0D03CEBF59DAFC5BC12D30 /* IOKit.framework */; };
+		8472A1FD25CBAFBC005AFD59 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57D6497EEC467765A5A8585 /* QuartzCore.framework */; };
+		8472A1FE25CBAFBC005AFD59 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F3F4170C90E9AF575FD4CF /* WebKit.framework */; };
 		87121C1F04A1AA5831B62D91 /* include_juce_audio_plugin_client_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBBE38DA2F2DD31EE542FEC3 /* include_juce_audio_plugin_client_utils.cpp */; };
 		938A4E239E6B678F2D2B834B /* PluginProcessor_V0_9w.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B4A827C3DCE462FB98617 /* PluginProcessor_V0_9w.cpp */; };
 		B0DF53CE94F5DC1C2175C82F /* include_juce_audio_plugin_client_VST_utils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3F989CD21B01BF15C75C3633 /* include_juce_audio_plugin_client_VST_utils.mm */; };
@@ -104,35 +104,35 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		65B26F0525560B340017BCED /* PBXContainerItemProxy */ = {
+		8472A1FF25CBAFBC005AFD59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ACDB4F4BA345B443454EBFB0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B2599B947F1007DE15E8B84E;
 			remoteInfo = "TaiMotherShip - Shared Code";
 		};
-		65B26F0625560B340017BCED /* PBXContainerItemProxy */ = {
+		8472A20025CBAFBF005AFD59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ACDB4F4BA345B443454EBFB0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E33FE5ACA4EB785E1B608552;
 			remoteInfo = "TaiMotherShip - VST";
 		};
-		65B26F0725560B340017BCED /* PBXContainerItemProxy */ = {
+		8472A20125CBAFBF005AFD59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ACDB4F4BA345B443454EBFB0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FA4625BDCC90787D4A500D41;
 			remoteInfo = "TaiMotherShip - AAX";
 		};
-		65B26F0825560B340017BCED /* PBXContainerItemProxy */ = {
+		8472A20225CBAFBF005AFD59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ACDB4F4BA345B443454EBFB0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2E4A8044C5AFDD681A4CEFD6;
 			remoteInfo = "TaiMotherShip - AU";
 		};
-		65B26F0925560B340017BCED /* PBXContainerItemProxy */ = {
+		8472A20325CBAFBF005AFD59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ACDB4F4BA345B443454EBFB0 /* Project object */;
 			proxyType = 1;
@@ -147,10 +147,10 @@
 		00D8793D20E8881D2757D61C /* classic_green_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_green_button.png; path = ../../Source/images/classic_green_button.png; sourceTree = SOURCE_ROOT; };
 		0466673BF1AFFBA8339C8180 /* swt_Trim_rw_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swt_Trim_rw_on.png; path = ../../Source/images/swt_Trim_rw_on.png; sourceTree = SOURCE_ROOT; };
 		06E2CFD272E015D18E902913 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		07FE820D0F8BB47E8E10A9AE /* juce_audio_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_basics; path = /Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_basics; sourceTree = "<absolute>"; };
 		086FBC198C3CDDC707DCAF5B /* classic_green_button_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_green_button_8.png; path = ../../Source/images/classic_green_button_8.png; sourceTree = SOURCE_ROOT; };
 		09DFF5B315782F0A052D9D8A /* classic_grey_button_100_100_last.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_grey_button_100_100_last.png; path = ../../Source/images/classic_grey_button_100_100_last.png; sourceTree = SOURCE_ROOT; };
 		0A418EB035F897BBAB710493 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		0C378B2CC71D95673A5AB3A1 /* juce_audio_devices */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_devices; path = /Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_devices; sourceTree = "<absolute>"; };
 		0C3A7BAC77D33F05B5E1C738 /* Green_silverball_160_no_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Green_silverball_160_no_text.png; path = ../../Source/images/Green_silverball_160_no_text.png; sourceTree = SOURCE_ROOT; };
 		0DEAEB651B26645F7398A27A /* classic_black_trim_latch_105x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_black_trim_latch_105x30.png; path = ../../Source/images/classic_black_trim_latch_105x30.png; sourceTree = SOURCE_ROOT; };
 		0F508E60CD66DEBFAC4AA740 /* classic_black_abs_write_105x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_black_abs_write_105x30.png; path = ../../Source/images/classic_black_abs_write_105x30.png; sourceTree = SOURCE_ROOT; };
@@ -162,7 +162,6 @@
 		169A5113245FBE67D504F5C4 /* Green_silverball_40_no_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Green_silverball_40_no_text.png; path = ../../Source/images/Green_silverball_40_no_text.png; sourceTree = SOURCE_ROOT; };
 		16CE4D325545B3D9DD9F1677 /* swt_Trim_rw_off_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swt_Trim_rw_off_s.png; path = ../../Source/images/swt_Trim_rw_off_s.png; sourceTree = SOURCE_ROOT; };
 		1732B46F167FC4859EF7E952 /* faderthumbTc_noshadow_22x52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = faderthumbTc_noshadow_22x52.png; path = ../../Source/images/faderthumbTc_noshadow_22x52.png; sourceTree = SOURCE_ROOT; };
-		1A8EC0F1523E6413994B6177 /* juce_gui_extra */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_extra; path = /Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_gui_extra; sourceTree = "<absolute>"; };
 		1F8CADFA09AF5CCE58EB5563 /* mute2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mute2.png; path = ../../Source/images/mute2.png; sourceTree = SOURCE_ROOT; };
 		202F3254F7F50BC2049E5E91 /* classic_grey_button_volume_only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_grey_button_volume_only.png; path = ../../Source/images/classic_grey_button_volume_only.png; sourceTree = SOURCE_ROOT; };
 		20FF193CC242F1F5B51DBDD2 /* classic_grey_button_cuts_only_blk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_grey_button_cuts_only_blk.png; path = ../../Source/images/classic_grey_button_cuts_only_blk.png; sourceTree = SOURCE_ROOT; };
@@ -170,7 +169,6 @@
 		22EC22898CA5E295F3DFE6B4 /* silverball_100_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = silverball_100_L.png; path = ../../Source/images/silverball_100_L.png; sourceTree = SOURCE_ROOT; };
 		248D660019D285F39B681F87 /* Green_silverball_3000_no_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Green_silverball_3000_no_text.png; path = ../../Source/images/Green_silverball_3000_no_text.png; sourceTree = SOURCE_ROOT; };
 		263884AEBB2B0B241B427138 /* fader_plate_44_462_newscale2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fader_plate_44_462_newscale2.png; path = ../../Source/images/fader_plate_44_462_newscale2.png; sourceTree = SOURCE_ROOT; };
-		267186AED9DF92159E32B6B9 /* juce_audio_utils */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_utils; path = /Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_utils; sourceTree = "<absolute>"; };
 		27C7008D379EA788E3DE0993 /* classic_green_button_100_100_first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_green_button_100_100_first.png; path = ../../Source/images/classic_green_button_100_100_first.png; sourceTree = SOURCE_ROOT; };
 		286C39A893C52D3833BE38FF /* classic_grey_button_cuts_only_wht.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_grey_button_cuts_only_wht.png; path = ../../Source/images/classic_grey_button_cuts_only_wht.png; sourceTree = SOURCE_ROOT; };
 		286E6C7DBDA22CBC8EC84F5E /* classic_green_button_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_green_button_16.png; path = ../../Source/images/classic_green_button_16.png; sourceTree = SOURCE_ROOT; };
@@ -183,8 +181,10 @@
 		30F3F4170C90E9AF575FD4CF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		3227A4FFF242E36F594B3762 /* classic_green_button_100_100_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_green_button_100_100_up.png; path = ../../Source/images/classic_green_button_100_100_up.png; sourceTree = SOURCE_ROOT; };
 		349131EB0A113C3831A3F04B /* swt_abs_rt_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swt_abs_rt_on.png; path = ../../Source/images/swt_abs_rt_on.png; sourceTree = SOURCE_ROOT; };
+		350EE1C6FDEEB4A554C6FAB0 /* juce_core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_core; path = /Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_core; sourceTree = "<absolute>"; };
 		3567A6E2661C493A57977F40 /* classic_grey_button_100_100_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_grey_button_100_100_down.png; path = ../../Source/images/classic_grey_button_100_100_down.png; sourceTree = SOURCE_ROOT; };
 		359D2B035CE4DE1F42F91DE2 /* classic_black_off_100x33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_black_off_100x33.png; path = ../../Source/images/classic_black_off_100x33.png; sourceTree = SOURCE_ROOT; };
+		35A5CAE74B4751F6BCBD8D15 /* juce_gui_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_basics; path = /Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_gui_basics; sourceTree = "<absolute>"; };
 		35A76F401A353DB659573942 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		36E371B83EFE7602C939EF7B /* include_juce_audio_plugin_client_AU_2.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_plugin_client_AU_2.mm; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_AU_2.mm; sourceTree = SOURCE_ROOT; };
 		36E7E98CB5E316DDC931C116 /* classic_green_button_volume_only_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_green_button_volume_only_s.png; path = ../../Source/images/classic_green_button_volume_only_s.png; sourceTree = SOURCE_ROOT; };
@@ -211,12 +211,12 @@
 		46914B479AA51FAF4981BD82 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Untitled.png; path = ../../Source/images/Untitled.png; sourceTree = SOURCE_ROOT; };
 		47476168509728439B7A31B6 /* link_off_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_off_button.png; path = ../../Source/images/link_off_button.png; sourceTree = SOURCE_ROOT; };
 		476207DB1CB9D55B67F96DA6 /* classic_green_button copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "classic_green_button copy.png"; path = "../../Source/images/classic_green_button copy.png"; sourceTree = SOURCE_ROOT; };
-		4962DB9F3A371DADDB507A31 /* juce_core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_core; path = /Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_core; sourceTree = "<absolute>"; };
 		4AC6DF806D3EE191808295B7 /* green_swt_vol_auto_on_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green_swt_vol_auto_on_big.png; path = ../../Source/images/green_swt_vol_auto_on_big.png; sourceTree = SOURCE_ROOT; };
 		4BADFA65FBFA86E65F49F986 /* fader_plate_44_462_noscale copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fader_plate_44_462_noscale copy.png"; path = "../../Source/images/fader_plate_44_462_noscale copy.png"; sourceTree = SOURCE_ROOT; };
 		4BB4E0D450E3D1CA79CFBAF8 /* swt_Trim_rt_off_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swt_Trim_rt_off_s.png; path = ../../Source/images/swt_Trim_rt_off_s.png; sourceTree = SOURCE_ROOT; };
 		4C0D03CEBF59DAFC5BC12D30 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		4C84E7B0589C267AAC943044 /* link_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_button.png; path = ../../Source/images/link_button.png; sourceTree = SOURCE_ROOT; };
+		4CF70EC55D306D577F0DA11C /* juce_osc */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_osc; path = /Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_osc; sourceTree = "<absolute>"; };
 		4EA3EB507E913CCEC146741B /* classic_grey_button_volume_only_wht.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_grey_button_volume_only_wht.png; path = ../../Source/images/classic_grey_button_volume_only_wht.png; sourceTree = SOURCE_ROOT; };
 		4EB3333A1E17B0D0A6C2AA1F /* silver-stress-ball (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "silver-stress-ball (1).jpg"; path = "../../Source/images/silver-stress-ball (1).jpg"; sourceTree = SOURCE_ROOT; };
 		4FFD0125380F3407E54D54E1 /* TaiMotherShip.vst */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaiMotherShip.vst; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -235,7 +235,6 @@
 		5D7EADD663393D2A7D77ACB0 /* tangerine_128_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tangerine_128_128.png; path = ../../Source/images/tangerine_128_128.png; sourceTree = SOURCE_ROOT; };
 		5DE60FE46C06406DC0FF4B93 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		5E17F16CD425B4654A660B8F /* silver_ball.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = silver_ball.jpeg; path = ../../Source/images/silver_ball.jpeg; sourceTree = SOURCE_ROOT; };
-		5E29601EC32DA0A97448FD63 /* juce_graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_graphics; path = /Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_graphics; sourceTree = "<absolute>"; };
 		62050E2C878D76B94D24AB9B /* Silverball_100_link_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Silverball_100_link_L.png; path = ../../Source/images/Silverball_100_link_L.png; sourceTree = SOURCE_ROOT; };
 		624698074BEC2D8851E9EDE3 /* classic_black_trim_write_105x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_black_trim_write_105x30.png; path = ../../Source/images/classic_black_trim_write_105x30.png; sourceTree = SOURCE_ROOT; };
 		62C6B33DB20DD56A9C2C2283 /* Untitled 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled 2.png"; path = "../../Source/images/Untitled 2.png"; sourceTree = SOURCE_ROOT; };
@@ -246,8 +245,8 @@
 		67615B7FC7D00B818C2C7725 /* classic_green_button_fader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_green_button_fader.png; path = ../../Source/images/classic_green_button_fader.png; sourceTree = SOURCE_ROOT; };
 		688CA00DD20BFA743C01CDF6 /* swt_Trim_rt_on_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swt_Trim_rt_on_s.png; path = ../../Source/images/swt_Trim_rt_on_s.png; sourceTree = SOURCE_ROOT; };
 		6B11C1C50C9887463CCB19A4 /* classic_black_abs_touch_105x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_black_abs_touch_105x30.png; path = ../../Source/images/classic_black_abs_touch_105x30.png; sourceTree = SOURCE_ROOT; };
-		6B4D4DE49E6444818E672594 /* juce_data_structures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_data_structures; path = /Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_data_structures; sourceTree = "<absolute>"; };
 		6DB210FE87B0AE32A3FAF514 /* grey_swt_vol_auto_off_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grey_swt_vol_auto_off_s.png; path = ../../Source/images/grey_swt_vol_auto_off_s.png; sourceTree = SOURCE_ROOT; };
+		6E82A5E45E22DA19F3FE1B53 /* juce_graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_graphics; path = /Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_graphics; sourceTree = "<absolute>"; };
 		6F7DB789CCBA6A50949B2403 /* swt_Trim_rt_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swt_Trim_rt_off.png; path = ../../Source/images/swt_Trim_rt_off.png; sourceTree = SOURCE_ROOT; };
 		6F9DB3CB632A911C83915822 /* classic_grey_100x33_resume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_grey_100x33_resume.png; path = ../../Source/images/classic_grey_100x33_resume.png; sourceTree = SOURCE_ROOT; };
 		70115AD57A2D41DC7ADEB5A8 /* blank_fader8_plate_352_462.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blank_fader8_plate_352_462.png; path = ../../Source/images/blank_fader8_plate_352_462.png; sourceTree = SOURCE_ROOT; };
@@ -255,7 +254,6 @@
 		72ABB8EC11CB44B2C4F1F838 /* include_juce_osc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = include_juce_osc.cpp; path = ../../JuceLibraryCode/include_juce_osc.cpp; sourceTree = SOURCE_ROOT; };
 		73015AC1D9FE12EB67AB4299 /* classic_green_button_cuts_only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_green_button_cuts_only.png; path = ../../Source/images/classic_green_button_cuts_only.png; sourceTree = SOURCE_ROOT; };
 		7429E54DDE049344682DDDB7 /* PipeComm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PipeComm.cpp; path = ../../Source/PipeComm.cpp; sourceTree = SOURCE_ROOT; };
-		74B07701174547B6A3A8959E /* juce_audio_formats */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_formats; path = /Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_formats; sourceTree = "<absolute>"; };
 		7545AE1B4EDEFFEBC94DD5F3 /* classic_grey_button_cuts_only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_grey_button_cuts_only.png; path = ../../Source/images/classic_grey_button_cuts_only.png; sourceTree = SOURCE_ROOT; };
 		75840CF1A3C4AC7154D28F6B /* faderthumb_shadow_47x71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = faderthumb_shadow_47x71.png; path = ../../Source/images/faderthumb_shadow_47x71.png; sourceTree = SOURCE_ROOT; };
 		7600EF9002E29A173BBD6976 /* classic_black_write_105x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_black_write_105x30.png; path = ../../Source/images/classic_black_write_105x30.png; sourceTree = SOURCE_ROOT; };
@@ -263,11 +261,11 @@
 		7799632B81EA05563279BFAA /* classic_green_button_UP_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_green_button_UP_s.png; path = ../../Source/images/classic_green_button_UP_s.png; sourceTree = SOURCE_ROOT; };
 		77B917EF65666B90C08750CC /* include_juce_audio_devices.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_devices.mm; path = ../../JuceLibraryCode/include_juce_audio_devices.mm; sourceTree = SOURCE_ROOT; };
 		7850270D1FCD1803CA1861B5 /* swt_Trim_rt_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swt_Trim_rt_on.png; path = ../../Source/images/swt_Trim_rt_on.png; sourceTree = SOURCE_ROOT; };
-		78779442C38E150F8B080CFA /* juce_events */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_events; path = /Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_events; sourceTree = "<absolute>"; };
 		78EBA9F5D86E6B8087FCCFF0 /* link_button_off2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_button_off2.png; path = ../../Source/images/link_button_off2.png; sourceTree = SOURCE_ROOT; };
 		79632875CCF1FF07B9D648A2 /* classic_grey_100x33_MIX_OFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_grey_100x33_MIX_OFF.png; path = ../../Source/images/classic_grey_100x33_MIX_OFF.png; sourceTree = SOURCE_ROOT; };
 		7AADDEABE289F90C2D8037C2 /* classic_grey_button_volume_only_blk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_grey_button_volume_only_blk.png; path = ../../Source/images/classic_grey_button_volume_only_blk.png; sourceTree = SOURCE_ROOT; };
 		7B43FFE7729930ABB3925BAB /* lightbutton_off_cut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lightbutton_off_cut.png; path = ../../Source/images/lightbutton_off_cut.png; sourceTree = SOURCE_ROOT; };
+		7D6059BC7D4078E2D051673B /* juce_audio_formats */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_formats; path = /Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_formats; sourceTree = "<absolute>"; };
 		8001B23742E8FA4DB7B6F463 /* include_juce_graphics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_graphics.mm; path = ../../JuceLibraryCode/include_juce_graphics.mm; sourceTree = SOURCE_ROOT; };
 		8290AC950A713F0E8399F80C /* swt_Trim_rl_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swt_Trim_rl_off.png; path = ../../Source/images/swt_Trim_rl_off.png; sourceTree = SOURCE_ROOT; };
 		82B4FA2E98C26D5AB911B6CD /* PluginEditor_V0_9w.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginEditor_V0_9w.h; path = ../../Source/PluginEditor_V0_9w.h; sourceTree = SOURCE_ROOT; };
@@ -277,7 +275,7 @@
 		84CFE9E03F17339EB894EFEF /* swt_abs_rw_on_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swt_abs_rw_on_s.png; path = ../../Source/images/swt_abs_rw_on_s.png; sourceTree = SOURCE_ROOT; };
 		85A738A853C32AAFDBC278AB /* classic_blank_button_backup.zip */ = {isa = PBXFileReference; lastKnownFileType = file.zip; name = classic_blank_button_backup.zip; path = ../../Source/images/classic_blank_button_backup.zip; sourceTree = SOURCE_ROOT; };
 		8601E38FF807702146814516 /* fader_plate2_44_462 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fader_plate2_44_462 copy.png"; path = "../../Source/images/fader_plate2_44_462 copy.png"; sourceTree = SOURCE_ROOT; };
-		8674B6B09E5B07AC6A4A9294 /* juce_audio_plugin_client */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_plugin_client; path = /Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client; sourceTree = "<absolute>"; };
+		873BEA628EBF66B2E9E1ACA1 /* juce_audio_devices */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_devices; path = /Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_devices; sourceTree = "<absolute>"; };
 		88CCB9E65E1DAF5CB4DD569A /* ProcessorInitfonctions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ProcessorInitfonctions.cpp; path = ../../Source/ProcessorInitfonctions.cpp; sourceTree = SOURCE_ROOT; };
 		8967DBC2930D50BD0C5BBCD8 /* silverball_100_link_OFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = silverball_100_link_OFF.png; path = ../../Source/images/silverball_100_link_OFF.png; sourceTree = SOURCE_ROOT; };
 		89A3E2C790476AC7AAF7850B /* swt_Trim_rl_on_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swt_Trim_rl_on_s.png; path = ../../Source/images/swt_Trim_rl_on_s.png; sourceTree = SOURCE_ROOT; };
@@ -286,6 +284,7 @@
 		8AB313FD29B4E0D9BDCA99DC /* tangerine_512_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tangerine_512_512.png; path = ../../Source/images/tangerine_512_512.png; sourceTree = SOURCE_ROOT; };
 		8BE1F563EF4D4146492067B7 /* tangerine_256_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tangerine_256_256.png; path = ../../Source/images/tangerine_256_256.png; sourceTree = SOURCE_ROOT; };
 		8CC6576BB8A32C84F1E1AC3D /* faderthumb_shadow_47x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = faderthumb_shadow_47x80.png; path = ../../Source/images/faderthumb_shadow_47x80.png; sourceTree = SOURCE_ROOT; };
+		8D413E8F81E25D41EB34E325 /* juce_audio_plugin_client */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_plugin_client; path = /Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client; sourceTree = "<absolute>"; };
 		8F551F78B7C5D790140C6DD2 /* grey_swt_cut_auto_off_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grey_swt_cut_auto_off_big.png; path = ../../Source/images/grey_swt_cut_auto_off_big.png; sourceTree = SOURCE_ROOT; };
 		8F74BE96F6DCE46312872EB4 /* new_vca_db_scale_single.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_vca_db_scale_single.png; path = ../../Source/images/new_vca_db_scale_single.png; sourceTree = SOURCE_ROOT; };
 		8F7615A0A37F57319FB7D308 /* tangerine_32_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tangerine_32_32.png; path = ../../Source/images/tangerine_32_32.png; sourceTree = SOURCE_ROOT; };
@@ -295,8 +294,10 @@
 		911A6D205900B983AAF1F768 /* classic_red_button_cuts_only_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_red_button_cuts_only_s.png; path = ../../Source/images/classic_red_button_cuts_only_s.png; sourceTree = SOURCE_ROOT; };
 		91D512EBEB2BA35A8AE0639C /* BinaryData2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryData2.cpp; path = ../../JuceLibraryCode/BinaryData2.cpp; sourceTree = SOURCE_ROOT; };
 		9350F3D8EE26FD66EA9FDBBF /* classic_black_abs_read_105x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_black_abs_read_105x30.png; path = ../../Source/images/classic_black_abs_read_105x30.png; sourceTree = SOURCE_ROOT; };
+		9366A02BFF3CDE7E2870151D /* juce_audio_processors */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_processors; path = /Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_processors; sourceTree = "<absolute>"; };
 		93F1526E49C25CFAFFDEE6A4 /* classic_grey_button_volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_grey_button_volume.png; path = ../../Source/images/classic_grey_button_volume.png; sourceTree = SOURCE_ROOT; };
 		946859081079E3BFD64F4BDE /* fader_plate_46_463_scale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fader_plate_46_463_scale.png; path = ../../Source/images/fader_plate_46_463_scale.png; sourceTree = SOURCE_ROOT; };
+		956B8B7FFB22175C28C930B4 /* juce_events */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_events; path = /Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_events; sourceTree = "<absolute>"; };
 		99502C0B58F0999A44EA037F /* link_off_button_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_off_button_s.png; path = ../../Source/images/link_off_button_s.png; sourceTree = SOURCE_ROOT; };
 		9A9516BD7CC655CDE03F972B /* gestureManagersProcessor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = gestureManagersProcessor.cpp; path = ../../Source/gestureManagersProcessor.cpp; sourceTree = SOURCE_ROOT; };
 		9AA7A937B6C7409C79941A8B /* swt_Trim_rl_off_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swt_Trim_rl_off_s.png; path = ../../Source/images/swt_Trim_rl_off_s.png; sourceTree = SOURCE_ROOT; };
@@ -308,7 +309,6 @@
 		9EB545EE637183B0BF46F5D0 /* fader8_plate_352_462.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fader8_plate_352_462.png; path = ../../Source/images/fader8_plate_352_462.png; sourceTree = SOURCE_ROOT; };
 		9F162DFA2D64AAFD4B6B8A8B /* new_uf_db_scale_x8_original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_uf_db_scale_x8_original.png; path = ../../Source/images/new_uf_db_scale_x8_original.png; sourceTree = SOURCE_ROOT; };
 		9F8B4A827C3DCE462FB98617 /* PluginProcessor_V0_9w.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginProcessor_V0_9w.cpp; path = ../../Source/PluginProcessor_V0_9w.cpp; sourceTree = SOURCE_ROOT; };
-		9FD59659A9C662FAC14E309A /* juce_audio_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_basics; path = /Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_basics; sourceTree = "<absolute>"; };
 		A094A69EDFFC09B7A369CBCA /* include_juce_audio_plugin_client_VST2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = include_juce_audio_plugin_client_VST2.cpp; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_VST2.cpp; sourceTree = SOURCE_ROOT; };
 		A0FE3FC8B5B652CA586189AF /* JuceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JuceHeader.h; path = ../../JuceLibraryCode/JuceHeader.h; sourceTree = SOURCE_ROOT; };
 		A11DE4224802C0F8554224CF /* swt_abs_rl_off_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swt_abs_rl_off_s.png; path = ../../Source/images/swt_abs_rl_off_s.png; sourceTree = SOURCE_ROOT; };
@@ -319,7 +319,6 @@
 		A4C5CBA2E52B6417101DD561 /* swt_abs_rl_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swt_abs_rl_on.png; path = ../../Source/images/swt_abs_rl_on.png; sourceTree = SOURCE_ROOT; };
 		A4D091950A8EF4CCE201C99C /* swt_Trim_rw_on_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swt_Trim_rw_on_s.png; path = ../../Source/images/swt_Trim_rw_on_s.png; sourceTree = SOURCE_ROOT; };
 		A614B150EB61D436344EA38E /* classic_grey_button_volume_only_wht_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_grey_button_volume_only_wht_s.png; path = ../../Source/images/classic_grey_button_volume_only_wht_s.png; sourceTree = SOURCE_ROOT; };
-		A6FEED8D0507F83A14B1F060 /* juce_audio_processors */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_processors; path = /Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_processors; sourceTree = "<absolute>"; };
 		A7F6EE27F151B047340B9819 /* classic_red_button_volume_only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_red_button_volume_only.png; path = ../../Source/images/classic_red_button_volume_only.png; sourceTree = SOURCE_ROOT; };
 		A85C83152B26D3913A8AE63E /* classic_grey_button_100_100_first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_grey_button_100_100_first.png; path = ../../Source/images/classic_grey_button_100_100_first.png; sourceTree = SOURCE_ROOT; };
 		A8E9D29086E64159586995CF /* fader_plate_482_110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fader_plate_482_110.png; path = ../../Source/images/fader_plate_482_110.png; sourceTree = SOURCE_ROOT; };
@@ -383,7 +382,6 @@
 		CF0DDB163CA7E369D219912E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		CF1E0541FE13B3A78415DFAF /* classic_black_trim_read_105x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_black_trim_read_105x30.png; path = ../../Source/images/classic_black_trim_read_105x30.png; sourceTree = SOURCE_ROOT; };
 		CF87534C2C227169AB19A8CB /* include_juce_audio_processors.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_processors.mm; path = ../../JuceLibraryCode/include_juce_audio_processors.mm; sourceTree = SOURCE_ROOT; };
-		D03176584218929B3321EF96 /* juce_osc */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_osc; path = /Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_osc; sourceTree = "<absolute>"; };
 		D1AF5710BDFBD91B5B86C6AE /* classic_red_100x33_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_red_100x33_stop.png; path = ../../Source/images/classic_red_100x33_stop.png; sourceTree = SOURCE_ROOT; };
 		D1DD02586FAB5EC2B809966D /* classic_black_trim_touch_105x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_black_trim_touch_105x30.png; path = ../../Source/images/classic_black_trim_touch_105x30.png; sourceTree = SOURCE_ROOT; };
 		D1F34A8B9C161AE3C8728D74 /* Info-Standalone_Plugin.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Standalone_Plugin.plist"; sourceTree = SOURCE_ROOT; };
@@ -394,7 +392,7 @@
 		D50C82A7B4AD9BD89127C7A8 /* swt_preview_ow_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swt_preview_ow_on.png; path = ../../Source/images/swt_preview_ow_on.png; sourceTree = SOURCE_ROOT; };
 		D576FC5FDB7BE43B7BC7C96C /* db_scale copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "db_scale copy.png"; path = "../../Source/images/db_scale copy.png"; sourceTree = SOURCE_ROOT; };
 		D644CE70E202B9279165A06A /* PluginEditor_V0_9w.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginEditor_V0_9w.cpp; path = ../../Source/PluginEditor_V0_9w.cpp; sourceTree = SOURCE_ROOT; };
-		D6D7BD2FBC248979F98E7D1D /* juce_gui_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_basics; path = /Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_gui_basics; sourceTree = "<absolute>"; };
+		D685AB04018F8EC5822B3B8B /* juce_audio_utils */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_utils; path = /Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_utils; sourceTree = "<absolute>"; };
 		D72B225C5EFED41A4DEB797B /* classic_green_button_fader_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_green_button_fader_s.png; path = ../../Source/images/classic_green_button_fader_s.png; sourceTree = SOURCE_ROOT; };
 		D929605480FC9D7E45CA6570 /* ptools_scale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ptools_scale.png; path = ../../Source/images/ptools_scale.png; sourceTree = SOURCE_ROOT; };
 		D95E1AD2A15F6DDC6308FF97 /* fader_plate_462_110_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fader_plate_462_110_full.png; path = ../../Source/images/fader_plate_462_110_full.png; sourceTree = SOURCE_ROOT; };
@@ -408,6 +406,7 @@
 		DF740F5C0B6C6CB4114D1462 /* classic_green_button_cuts_only_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_green_button_cuts_only_s.png; path = ../../Source/images/classic_green_button_cuts_only_s.png; sourceTree = SOURCE_ROOT; };
 		E00C0B50BD7019F90C03B60B /* Green_silverbar_10_25_no_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Green_silverbar_10_25_no_text.png; path = ../../Source/images/Green_silverbar_10_25_no_text.png; sourceTree = SOURCE_ROOT; };
 		E0BA1A0C1A526A43E6882818 /* include_juce_audio_plugin_client_AU_1.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_plugin_client_AU_1.mm; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_AU_1.mm; sourceTree = SOURCE_ROOT; };
+		E1BF3BAEF95BF1F50314BFD4 /* juce_data_structures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_data_structures; path = /Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_data_structures; sourceTree = "<absolute>"; };
 		E1F3E284EC419376D70307ED /* Green_silverbar_5_25_no_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Green_silverbar_5_25_no_text.png; path = ../../Source/images/Green_silverbar_5_25_no_text.png; sourceTree = SOURCE_ROOT; };
 		E2B547CA3B999670B1B16F19 /* silver_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = silver_ball.png; path = ../../Source/images/silver_ball.png; sourceTree = SOURCE_ROOT; };
 		E5073E36F810AFFC7D50D446 /* include_juce_audio_plugin_client_Standalone.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = include_juce_audio_plugin_client_Standalone.cpp; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp; sourceTree = SOURCE_ROOT; };
@@ -425,6 +424,7 @@
 		F419876EB2DC1DCFC0FEE038 /* TaiMotherShip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaiMotherShip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60EDC257001706973F1F017 /* classic_grey_button_cuts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_grey_button_cuts.png; path = ../../Source/images/classic_grey_button_cuts.png; sourceTree = SOURCE_ROOT; };
 		F6B191CD16EB41D545C0DD7F /* mcp_volbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mcp_volbg.png; path = ../../Source/images/mcp_volbg.png; sourceTree = SOURCE_ROOT; };
+		F7B795A137917352D8FD0F51 /* juce_gui_extra */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_extra; path = /Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_gui_extra; sourceTree = "<absolute>"; };
 		F87A89DAE1017B288671A336 /* Info-AU.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-AU.plist"; sourceTree = SOURCE_ROOT; };
 		FA86DEE7BD038C8D23C5D61E /* classic_black_latch_100x33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_black_latch_100x33.png; path = ../../Source/images/classic_black_latch_100x33.png; sourceTree = SOURCE_ROOT; };
 		FC165962A6A29E9358B80638 /* classic_black_100x33_newgame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classic_black_100x33_newgame.png; path = ../../Source/images/classic_black_100x33_newgame.png; sourceTree = SOURCE_ROOT; };
@@ -439,17 +439,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DBC1BF0D0A1600F3EE6F5B5 /* AudioUnit.framework in Frameworks */,
-				65B26EEE25560B340017BCED /* Accelerate.framework in Frameworks */,
-				65B26EEF25560B340017BCED /* AudioToolbox.framework in Frameworks */,
-				65B26EF025560B340017BCED /* Carbon.framework in Frameworks */,
-				65B26EF125560B340017BCED /* Cocoa.framework in Frameworks */,
-				65B26EF225560B340017BCED /* CoreAudio.framework in Frameworks */,
-				65B26EF325560B340017BCED /* CoreAudioKit.framework in Frameworks */,
-				65B26EF425560B340017BCED /* CoreMIDI.framework in Frameworks */,
-				65B26EF525560B340017BCED /* DiscRecording.framework in Frameworks */,
-				65B26EF625560B340017BCED /* IOKit.framework in Frameworks */,
-				65B26EF725560B340017BCED /* QuartzCore.framework in Frameworks */,
-				65B26EF825560B340017BCED /* WebKit.framework in Frameworks */,
+				8472A1E825CBAFBC005AFD59 /* Accelerate.framework in Frameworks */,
+				8472A1E925CBAFBC005AFD59 /* AudioToolbox.framework in Frameworks */,
+				8472A1EA25CBAFBC005AFD59 /* Carbon.framework in Frameworks */,
+				8472A1EB25CBAFBC005AFD59 /* Cocoa.framework in Frameworks */,
+				8472A1EC25CBAFBC005AFD59 /* CoreAudio.framework in Frameworks */,
+				8472A1ED25CBAFBC005AFD59 /* CoreAudioKit.framework in Frameworks */,
+				8472A1EE25CBAFBC005AFD59 /* CoreMIDI.framework in Frameworks */,
+				8472A1EF25CBAFBC005AFD59 /* DiscRecording.framework in Frameworks */,
+				8472A1F025CBAFBC005AFD59 /* IOKit.framework in Frameworks */,
+				8472A1F125CBAFBC005AFD59 /* QuartzCore.framework in Frameworks */,
+				8472A1F225CBAFBC005AFD59 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,17 +457,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65B26EFA25560B340017BCED /* Accelerate.framework in Frameworks */,
-				65B26EFB25560B340017BCED /* AudioToolbox.framework in Frameworks */,
-				65B26EFC25560B340017BCED /* Carbon.framework in Frameworks */,
-				65B26EFD25560B340017BCED /* Cocoa.framework in Frameworks */,
-				65B26EFE25560B340017BCED /* CoreAudio.framework in Frameworks */,
-				65B26EFF25560B340017BCED /* CoreAudioKit.framework in Frameworks */,
-				65B26F0025560B340017BCED /* CoreMIDI.framework in Frameworks */,
-				65B26F0125560B340017BCED /* DiscRecording.framework in Frameworks */,
-				65B26F0225560B340017BCED /* IOKit.framework in Frameworks */,
-				65B26F0325560B340017BCED /* QuartzCore.framework in Frameworks */,
-				65B26F0425560B340017BCED /* WebKit.framework in Frameworks */,
+				8472A1F425CBAFBC005AFD59 /* Accelerate.framework in Frameworks */,
+				8472A1F525CBAFBC005AFD59 /* AudioToolbox.framework in Frameworks */,
+				8472A1F625CBAFBC005AFD59 /* Carbon.framework in Frameworks */,
+				8472A1F725CBAFBC005AFD59 /* Cocoa.framework in Frameworks */,
+				8472A1F825CBAFBC005AFD59 /* CoreAudio.framework in Frameworks */,
+				8472A1F925CBAFBC005AFD59 /* CoreAudioKit.framework in Frameworks */,
+				8472A1FA25CBAFBC005AFD59 /* CoreMIDI.framework in Frameworks */,
+				8472A1FB25CBAFBC005AFD59 /* DiscRecording.framework in Frameworks */,
+				8472A1FC25CBAFBC005AFD59 /* IOKit.framework in Frameworks */,
+				8472A1FD25CBAFBC005AFD59 /* QuartzCore.framework in Frameworks */,
+				8472A1FE25CBAFBC005AFD59 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,17 +475,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65B26EE225560B340017BCED /* Accelerate.framework in Frameworks */,
-				65B26EE325560B340017BCED /* AudioToolbox.framework in Frameworks */,
-				65B26EE425560B340017BCED /* Carbon.framework in Frameworks */,
-				65B26EE525560B340017BCED /* Cocoa.framework in Frameworks */,
-				65B26EE625560B340017BCED /* CoreAudio.framework in Frameworks */,
-				65B26EE725560B340017BCED /* CoreAudioKit.framework in Frameworks */,
-				65B26EE825560B340017BCED /* CoreMIDI.framework in Frameworks */,
-				65B26EE925560B340017BCED /* DiscRecording.framework in Frameworks */,
-				65B26EEA25560B340017BCED /* IOKit.framework in Frameworks */,
-				65B26EEB25560B340017BCED /* QuartzCore.framework in Frameworks */,
-				65B26EEC25560B340017BCED /* WebKit.framework in Frameworks */,
+				8472A1DC25CBAFBC005AFD59 /* Accelerate.framework in Frameworks */,
+				8472A1DD25CBAFBC005AFD59 /* AudioToolbox.framework in Frameworks */,
+				8472A1DE25CBAFBC005AFD59 /* Carbon.framework in Frameworks */,
+				8472A1DF25CBAFBC005AFD59 /* Cocoa.framework in Frameworks */,
+				8472A1E025CBAFBC005AFD59 /* CoreAudio.framework in Frameworks */,
+				8472A1E125CBAFBC005AFD59 /* CoreAudioKit.framework in Frameworks */,
+				8472A1E225CBAFBC005AFD59 /* CoreMIDI.framework in Frameworks */,
+				8472A1E325CBAFBC005AFD59 /* DiscRecording.framework in Frameworks */,
+				8472A1E425CBAFBC005AFD59 /* IOKit.framework in Frameworks */,
+				8472A1E525CBAFBC005AFD59 /* QuartzCore.framework in Frameworks */,
+				8472A1E625CBAFBC005AFD59 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -700,19 +700,19 @@
 		A522210C5D4982D9FBAEE1C3 /* JUCE Modules */ = {
 			isa = PBXGroup;
 			children = (
-				9FD59659A9C662FAC14E309A /* juce_audio_basics */,
-				0C378B2CC71D95673A5AB3A1 /* juce_audio_devices */,
-				74B07701174547B6A3A8959E /* juce_audio_formats */,
-				8674B6B09E5B07AC6A4A9294 /* juce_audio_plugin_client */,
-				A6FEED8D0507F83A14B1F060 /* juce_audio_processors */,
-				267186AED9DF92159E32B6B9 /* juce_audio_utils */,
-				4962DB9F3A371DADDB507A31 /* juce_core */,
-				6B4D4DE49E6444818E672594 /* juce_data_structures */,
-				78779442C38E150F8B080CFA /* juce_events */,
-				5E29601EC32DA0A97448FD63 /* juce_graphics */,
-				D6D7BD2FBC248979F98E7D1D /* juce_gui_basics */,
-				1A8EC0F1523E6413994B6177 /* juce_gui_extra */,
-				D03176584218929B3321EF96 /* juce_osc */,
+				07FE820D0F8BB47E8E10A9AE /* juce_audio_basics */,
+				873BEA628EBF66B2E9E1ACA1 /* juce_audio_devices */,
+				7D6059BC7D4078E2D051673B /* juce_audio_formats */,
+				8D413E8F81E25D41EB34E325 /* juce_audio_plugin_client */,
+				9366A02BFF3CDE7E2870151D /* juce_audio_processors */,
+				D685AB04018F8EC5822B3B8B /* juce_audio_utils */,
+				350EE1C6FDEEB4A554C6FAB0 /* juce_core */,
+				E1BF3BAEF95BF1F50314BFD4 /* juce_data_structures */,
+				956B8B7FFB22175C28C930B4 /* juce_events */,
+				6E82A5E45E22DA19F3FE1B53 /* juce_graphics */,
+				35A5CAE74B4751F6BCBD8D15 /* juce_gui_basics */,
+				F7B795A137917352D8FD0F51 /* juce_gui_extra */,
+				4CF70EC55D306D577F0DA11C /* juce_osc */,
 			);
 			name = "JUCE Modules";
 			sourceTree = "<group>";
@@ -1041,6 +1041,7 @@
 				TargetAttributes = {
 					2E4A8044C5AFDD681A4CEFD6 = {
 						DevelopmentTeam = 9M6L7Q9BYK;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -1063,7 +1064,8 @@
 						};
 					};
 					7A11D6DBCDE092110C325201 = {
-						DevelopmentTeam = 9M6L7Q9BYK;
+						DevelopmentTeam = MPQNP6VNE3;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -1086,7 +1088,8 @@
 						};
 					};
 					9E34A110F87EB4651C7480CA = {
-						DevelopmentTeam = 9M6L7Q9BYK;
+						DevelopmentTeam = MPQNP6VNE3;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -1109,7 +1112,8 @@
 						};
 					};
 					B2599B947F1007DE15E8B84E = {
-						DevelopmentTeam = 9M6L7Q9BYK;
+						DevelopmentTeam = MPQNP6VNE3;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -1133,6 +1137,7 @@
 					};
 					E33FE5ACA4EB785E1B608552 = {
 						DevelopmentTeam = 9M6L7Q9BYK;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -1155,7 +1160,8 @@
 						};
 					};
 					FA4625BDCC90787D4A500D41 = {
-						DevelopmentTeam = 9M6L7Q9BYK;
+						DevelopmentTeam = MPQNP6VNE3;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -1206,7 +1212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65B26EF925560B340017BCED /* RecentFilesMenuTemplate.nib in Resources */,
+				8472A1F325CBAFBC005AFD59 /* RecentFilesMenuTemplate.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1214,7 +1220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65B26EED25560B340017BCED /* RecentFilesMenuTemplate.nib in Resources */,
+				8472A1E725CBAFBC005AFD59 /* RecentFilesMenuTemplate.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1230,7 +1236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65B26EE125560B340017BCED /* RecentFilesMenuTemplate.nib in Resources */,
+				8472A1DB25CBAFBC005AFD59 /* RecentFilesMenuTemplate.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1296,7 +1302,7 @@
 			name = "Post-build script";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "echo gvugzu | sudo -S  /Applications/PACEAntiPiracy/Eden/Fusion/Current/bin/wraptool sign --verbose --account thd-labs --password Taigvugzu@9497 --signid daniel@thd-labs.com --wcguid A7EB08C0-3697-11E8-A8DC-005056875CC3 --in ~/Desktop/TaiMotherShip.aaxplugin --out /Library/Application\\ Support/Avid/Audio/Plug-Ins/TaiMotherShip.aaxplugin\n\necho gvugzu | sudo -S  /Applications/PACEAntiPiracy/Eden/Fusion/Current/bin/wraptool sign --verbose --account thd-labs --password Taigvugzu@9497 --signid daniel@thd-labs.com --wcguid A7EB08C0-3697-11E8-A8DC-005056875CC3 --in ~/Desktop/TaiMotherShip.aaxplugin --out ~/Desktop/injektor_Installer_payload/V0_9x/TaiPlugins/aax/TaiMotherShip.aaxplugin\n";
+			shellScript = "#echo gvugzu | sudo -S  /Applications/PACEAntiPiracy/Eden/Fusion/Current/bin/wraptool sign --verbose --account thd-labs --password Taigvugzu@9497 --signid daniel@thd-labs.com --wcguid A7EB08C0-3697-11E8-A8DC-005056875CC3 --in ~/Desktop/TaiMotherShip.aaxplugin --out /Library/Application\\ Support/Avid/Audio/Plug-Ins/TaiMotherShip.aaxplugin\n\n#echo gvugzu | sudo -S  /Applications/PACEAntiPiracy/Eden/Fusion/Current/bin/wraptool sign --verbose --account thd-labs --password Taigvugzu@9497 --signid daniel@thd-labs.com --wcguid A7EB08C0-3697-11E8-A8DC-005056875CC3 --in ~/Desktop/TaiMotherShip.aaxplugin --out ~/Desktop/injektor_Installer_payload/V0_9x/TaiPlugins/TaiMotherShip.aaxplugin\n";
 		};
 		D94A0E157C03508E661555BA /* Post-build script */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1377,27 +1383,27 @@
 		298CA4445E39AFE260ADFC7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7A11D6DBCDE092110C325201 /* TaiMotherShip - Standalone Plugin */;
-			targetProxy = 65B26F0925560B340017BCED /* PBXContainerItemProxy */;
+			targetProxy = 8472A20325CBAFBF005AFD59 /* PBXContainerItemProxy */;
 		};
 		8177DDA30308F4C47BF75688 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B2599B947F1007DE15E8B84E /* TaiMotherShip - Shared Code */;
-			targetProxy = 65B26F0525560B340017BCED /* PBXContainerItemProxy */;
+			targetProxy = 8472A1FF25CBAFBC005AFD59 /* PBXContainerItemProxy */;
 		};
 		893617B605BE390541D9FB2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2E4A8044C5AFDD681A4CEFD6 /* TaiMotherShip - AU */;
-			targetProxy = 65B26F0825560B340017BCED /* PBXContainerItemProxy */;
+			targetProxy = 8472A20225CBAFBF005AFD59 /* PBXContainerItemProxy */;
 		};
 		BEA632CC2260B5BDBCC75BB6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E33FE5ACA4EB785E1B608552 /* TaiMotherShip - VST */;
-			targetProxy = 65B26F0625560B340017BCED /* PBXContainerItemProxy */;
+			targetProxy = 8472A20025CBAFBF005AFD59 /* PBXContainerItemProxy */;
 		};
 		CF28FD6F69C1764C80C3A386 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FA4625BDCC90787D4A500D41 /* TaiMotherShip - AAX */;
-			targetProxy = 65B26F0725560B340017BCED /* PBXContainerItemProxy */;
+			targetProxy = 8472A20125CBAFBF005AFD59 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1405,8 +1411,11 @@
 		0DC0CBB1785E4B80ED755872 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				SDKROOT = macosx10.13;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = MPQNP6VNE3;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -1417,10 +1426,13 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = MPQNP6VNE3;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1442,18 +1454,18 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/VST3_SDK,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/VST3_SDK,
 					../../JuceLibraryCode,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces/ACF,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces/ACF,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LLVM_LTO = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thd-labs.TaiMotherShip";
 				PRODUCT_NAME = TaiMotherShip;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1469,7 +1481,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application: 9308725 Canada Inc (MPQNP6VNE3)";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
@@ -1495,13 +1507,13 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/VST3_SDK,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/VST3_SDK,
 					../../JuceLibraryCode,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces/ACF,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces/ACF,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Info-VST.plist";
@@ -1528,10 +1540,12 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application: 9308725 Canada Inc (MPQNP6VNE3)";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = MPQNP6VNE3;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1552,13 +1566,13 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/VST3_SDK,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/VST3_SDK,
 					../../JuceLibraryCode,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces/ACF,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces/ACF,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Info-Standalone_Plugin.plist";
@@ -1580,7 +1594,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application: 9308725 Canada Inc (MPQNP6VNE3)";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				DEAD_CODE_STRIPPING = YES;
@@ -1607,13 +1621,13 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/VST3_SDK,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/VST3_SDK,
 					../../JuceLibraryCode,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces/ACF,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces/ACF,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Info-VST.plist";
@@ -1637,8 +1651,11 @@
 		79829E7B0749DB1230160F0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				SDKROOT = macosx10.13;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = MPQNP6VNE3;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -1649,7 +1666,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application: 9308725 Canada Inc (MPQNP6VNE3)";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
@@ -1675,18 +1692,18 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/VST3_SDK,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/VST3_SDK,
 					../../JuceLibraryCode,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces/ACF,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces/ACF,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Info-AU.plist";
 				INFOPLIST_PREPROCESS = NO;
-				INSTALL_PATH = "$(HOME)/Desktop/injektor_Installer_payload/V0_9x/TaiPlugins/au/";
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_LDFLAGS = (
@@ -1709,7 +1726,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application: 9308725 Canada Inc (MPQNP6VNE3)";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				DEAD_CODE_STRIPPING = YES;
@@ -1736,18 +1753,18 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/VST3_SDK,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/VST3_SDK,
 					../../JuceLibraryCode,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces/ACF,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces/ACF,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Info-AU.plist";
 				INFOPLIST_PREPROCESS = NO;
-				INSTALL_PATH = "$(HOME)/Desktop/injektor_Installer_payload/V0_9x/TaiPlugins/au/";
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
 				LIBRARY_STYLE = Bundle;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -1771,10 +1788,13 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = MPQNP6VNE3;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1795,17 +1815,17 @@
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/VST3_SDK,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/VST3_SDK,
 					../../JuceLibraryCode,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces/ACF,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces/ACF,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thd-labs.TaiMotherShip";
 				PRODUCT_NAME = TaiMotherShip;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1821,11 +1841,14 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
 				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = MPQNP6VNE3;
 				DSTROOT = /;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1847,13 +1870,13 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/VST3_SDK,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/VST3_SDK,
 					../../JuceLibraryCode,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces/ACF,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces/ACF,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Info-AAX.plist";
@@ -1861,10 +1884,10 @@
 				INSTALL_PATH = "$(HOME)/Desktop/";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Libs/Debug\"",
+					"\"/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Libs/Debug\"",
 				);
 				LIBRARY_STYLE = Bundle;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_LDFLAGS = (
 					"-bundle",
 					"-lAAXLibrary_libcpp",
@@ -1900,9 +1923,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application: 9308725 Canada Inc (MPQNP6VNE3)";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 9M6L7Q9BYK;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
@@ -1918,9 +1943,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
 				PRODUCT_NAME = TaiMotherShip;
-				SDKROOT = macosx10.13;
+				SDKROOT = macosx;
 				WARNING_CFLAGS = "-Wreorder";
 				ZERO_LINK = NO;
 			};
@@ -1933,11 +1959,14 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				DEAD_CODE_STRIPPING = YES;
 				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = MPQNP6VNE3;
 				DSTROOT = /;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
@@ -1960,13 +1989,13 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/VST3_SDK,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/VST3_SDK,
 					../../JuceLibraryCode,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces/ACF,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces/ACF,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Info-AAX.plist";
@@ -1974,11 +2003,11 @@
 				INSTALL_PATH = "$(HOME)/Desktop/";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Libs/Release\"",
+					"\"/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Libs/Release\"",
 				);
 				LIBRARY_STYLE = Bundle;
 				LLVM_LTO = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_LDFLAGS = (
 					"-bundle",
 					"-lAAXLibrary_libcpp",
@@ -2014,9 +2043,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application: 9308725 Canada Inc (MPQNP6VNE3)";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 9M6L7Q9BYK;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c11;
@@ -2033,9 +2064,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
 				PRODUCT_NAME = TaiMotherShip;
-				SDKROOT = macosx10.13;
+				SDKROOT = macosx;
 				WARNING_CFLAGS = "-Wreorder";
 				ZERO_LINK = NO;
 			};
@@ -2048,10 +2080,12 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application: 9308725 Canada Inc (MPQNP6VNE3)";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = MPQNP6VNE3;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2071,13 +2105,13 @@
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/VST3_SDK,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/VST3_SDK,
 					../../JuceLibraryCode,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p1/Interfaces/ACF,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules,
-					/Users/daniel/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/AAX_SDK_2p3p2/Interfaces/ACF,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules,
+					/Users/admin/Desktop/3_PLUGIN_SDKs/JUCE/modules/juce_audio_plugin_client,
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Info-Standalone_Plugin.plist";
