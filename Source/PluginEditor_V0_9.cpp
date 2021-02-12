@@ -26,8 +26,8 @@
   ==============================================================================
 */
 #define __MODKEYDEV
-#include "PluginProcessor_V0_9w.h"
-#include "PluginEditor_V0_9w.h"
+#include "PluginProcessor_V0_9.h"
+#include "PluginEditor_V0_9.h"
 
 #define OFF 0
 #define WRITE 1

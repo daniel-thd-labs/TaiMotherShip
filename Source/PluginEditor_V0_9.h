@@ -1,4 +1,4 @@
-/* PluginEditor_V0_9k.cpp (build 2020_06_26_00)
+/* PluginEditor_V0_9.cpp (build 2020_06_26_00)
 matched to PluginEditor_V0_96.cpp (build 2020_06_26_00)
   ==============================================================================
 
@@ -28,7 +28,7 @@ matched to PluginEditor_V0_96.cpp (build 2020_06_26_00)
 #pragma once
 
 #include "../JuceLibraryCode/JuceHeader.h"
-#include "PluginProcessor_V0_9w.h"
+#include "PluginProcessor_V0_9.h"
 #include "taigames.h"
 
 class MyLookAndFeel_V4 : public LookAndFeel_V4

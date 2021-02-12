@@ -7,7 +7,7 @@
 
   ==============================================================================
 */
-#include "PluginProcessor_V0_9w.h"
+#include "PluginProcessor_V0_9.h"
 
 #define _JUCE_5
 #define OFF 0

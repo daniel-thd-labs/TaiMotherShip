@@ -42,9 +42,9 @@
 #define ULTIMATION 0x01
 #define FRAMERATE 60
 //#include "PipeComm.h"
-#include "PluginProcessor_V0_9w.h"
+#include "PluginProcessor_V0_9.h"
 //#include "Processor_fonctions.h"
-#include "PluginEditor_V0_9w.h"
+#include "PluginEditor_V0_9.h"
 int testFunction(void){return 1;}
 
 AudioProcessor* JUCE_CALLTYPE createPluginFilter();
